@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="GB2312" ?><RouteCfg><RouteTable RouteTableCount="2">
+<RouteTableItem Name="RTb1" LoaclIP="37.161.138.254" LoaclEthNo="0"/>
+<RouteTableItem Name="RTb2" LoaclIP="37.161.139.254" LoaclEthNo="2"/>
+</RouteTable>
+<RouteRule RouteRuleCount="22">
+<RouteRuleItem RouteName="RTb1" LoaclIP="37.161.138.241" RemoteIP="37.161.0.3"/>
+<RouteRuleItem RouteName="RTb1" LoaclIP="37.161.138.241" RemoteIP="37.161.0.4"/>
+<RouteRuleItem RouteName="RTb1" LoaclIP="37.161.138.241" RemoteIP="37.161.0.10"/>
+<RouteRuleItem RouteName="RTb1" LoaclIP="37.161.138.241" RemoteIP="37.161.0.11"/>
+<RouteRuleItem RouteName="RTb1" LoaclIP="37.161.138.241" RemoteIP="37.161.0.12"/>
+<RouteRuleItem RouteName="RTb1" LoaclIP="37.161.138.241" RemoteIP="37.161.0.13"/>
+<RouteRuleItem RouteName="RTb1" LoaclIP="37.161.138.241" RemoteIP="37.161.0.31"/>
+<RouteRuleItem RouteName="RTb1" LoaclIP="37.161.138.241" RemoteIP="37.161.0.32"/>
+<RouteRuleItem RouteName="RTb1" LoaclIP="37.161.138.241" RemoteIP="37.161.253.1"/>
+<RouteRuleItem RouteName="RTb1" LoaclIP="37.161.138.241" RemoteIP="37.161.253.2"/>
+<RouteRuleItem RouteName="RTb1" LoaclIP="37.161.138.241" RemoteIP="37.161.253.3"/>
+<RouteRuleItem RouteName="RTb1" LoaclIP="37.161.138.241" RemoteIP="37.161.253.4"/>
+<RouteRuleItem RouteName="RTb2" LoaclIP="37.161.139.241" RemoteIP="37.161.0.3"/>
+<RouteRuleItem RouteName="RTb2" LoaclIP="37.161.139.241" RemoteIP="37.161.0.4"/>
+<RouteRuleItem RouteName="RTb2" LoaclIP="37.161.139.241" RemoteIP="37.161.0.10"/>
+<RouteRuleItem RouteName="RTb2" LoaclIP="37.161.139.241" RemoteIP="37.161.0.11"/>
+<RouteRuleItem RouteName="RTb2" LoaclIP="37.161.139.241" RemoteIP="37.161.0.12"/>
+<RouteRuleItem RouteName="RTb2" LoaclIP="37.161.139.241" RemoteIP="37.161.0.13"/>
+<RouteRuleItem RouteName="RTb2" LoaclIP="37.161.139.241" RemoteIP="37.161.253.1"/>
+<RouteRuleItem RouteName="RTb2" LoaclIP="37.161.139.241" RemoteIP="37.161.253.2"/>
+<RouteRuleItem RouteName="RTb2" LoaclIP="37.161.139.241" RemoteIP="37.161.253.3"/>
+<RouteRuleItem RouteName="RTb2" LoaclIP="37.161.139.241" RemoteIP="37.161.253.4"/>
+</RouteRule>
+</RouteCfg>

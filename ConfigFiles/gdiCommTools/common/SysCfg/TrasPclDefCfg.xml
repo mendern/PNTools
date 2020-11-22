@@ -1,0 +1,595 @@
+<?xml version="1.0" encoding="GB2312"?>
+<!-- edited with XMLSpy v2013 (http://www.altova.com) by  () -->
+<ProtocolDefCfg>
+	<ProtocolDefCfgAttr version="V3.2.5"/>
+	<ProtocolDefCfg0 Count="12">
+		<ProtocolDef0 ChineseName="源地址" Type="8" Size="2" DefVal="0" CommonStat="0"/>
+		<ProtocolDef1 ChineseName="目标地址" Type="8" Size="2" DefVal="0" CommonStat="0"/>
+		<ProtocolDef2 ChineseName="保护事件处理方式(0:转遥信 1:纯保护 2:复用)" Type="8" Size="2" DefVal="0" CommonStat="1"/>
+		<ProtocolDef3 ChineseName="发送时间间隔（ms）" Type="8" Size="2" DefVal="3000" CommonStat="1"/>
+		<ProtocolDef4 ChineseName="CRC校验(1:正码 其他:反码)" Type="8" Size="2" DefVal="1" CommonStat="0"/>
+		<ProtocolDef5 ChineseName="同步头(1:EB90 其他:D709)" Type="8" Size="2" DefVal="1" CommonStat="0"/>
+		<ProtocolDef6 ChineseName="遥测符号位" Type="7" Size="1" DefVal="11" CommonStat="1"/>
+		<ProtocolDef7 ChineseName="版本标示(0:标准  100/101:智能)" Type="7" Size="1" DefVal="0" CommonStat="1"/>
+		<ProtocolDef8 ChineseName="是否为扩展CDT（0:CDT，1:扩展CDT）" Type="7" Size="1" DefVal="0" CommonStat="1"/>
+		<ProtocolDef9 ChineseName="是否判断遥测有效位" Type="7" Size="1" DefVal="0" CommonStat="1"/>
+		<ProtocolDef10 ChineseName="是否判断遥测溢出位" Type="7" Size="1" DefVal="0" CommonStat="1"/>
+		<ProtocolDef11 ChineseName="控制字类型（0-71H，1-41H）" Type="7" Size="1" DefVal="0" CommonStat="0"/>
+	</ProtocolDefCfg0>
+	<ProtocolDefCfg1 Count="53">
+		<ProtocolDef0 ChineseName="链路地址" Type="8" Size="2" DefVal="0" CommonStat="0"/>
+		<ProtocolDef1 ChineseName="101类型(0:IEC101   1:GB101)" Type="8" Size="2" DefVal="1" CommonStat="1"/>
+		<ProtocolDef2 ChineseName="公共地址" Type="8" Size="2" DefVal="0" CommonStat="0"/>
+		<ProtocolDef3 ChineseName="保护事件处理方式(0-转遥信 1 - 纯保护 2- 复用)" Type="8" Size="2" DefVal="0" CommonStat="1"/>
+		<ProtocolDef4 ChineseName="遥信信息起始地址" Type="8" Size="2" DefVal="1" CommonStat="1"/>
+		<ProtocolDef5 ChineseName="遥信信息结束地址" Type="8" Size="2" DefVal="8192" CommonStat="1"/>
+		<ProtocolDef6 ChineseName="继电保护单个事件的信息起始地址" Type="8" Size="2" DefVal="4097" CommonStat="1"/>
+		<ProtocolDef7 ChineseName="继电保护单个事件的信息结束地址" Type="8" Size="2" DefVal="8192" CommonStat="1"/>
+		<ProtocolDef8 ChineseName="继电保护具有启动事件的事件顺序记录的信息起始地址" Type="8" Size="2" DefVal="8193" CommonStat="1"/>
+		<ProtocolDef9 ChineseName="继电保护具有启动事件的事件顺序记录的信息结束地址" Type="8" Size="2" DefVal="12288" CommonStat="1"/>
+		<ProtocolDef10 ChineseName="继电保护装置成组输出电路信息起始地址" Type="8" Size="2" DefVal="12289" CommonStat="1"/>
+		<ProtocolDef11 ChineseName="继电保护装置成组输出电路信息结束地址" Type="8" Size="2" DefVal="16384" CommonStat="1"/>
+		<ProtocolDef12 ChineseName="遥测信息起始地址" Type="8" Size="2" DefVal="16385" CommonStat="1"/>
+		<ProtocolDef13 ChineseName="遥测信息结束地址" Type="8" Size="2" DefVal="20480" CommonStat="1"/>
+		<ProtocolDef14 ChineseName="遥测参数信息起始地址" Type="8" Size="2" DefVal="20481" CommonStat="1"/>
+		<ProtocolDef15 ChineseName="遥测参数信息结束地址" Type="8" Size="2" DefVal="24576" CommonStat="1"/>
+		<ProtocolDef16 ChineseName="遥控信息起始地址" Type="8" Size="2" DefVal="24577" CommonStat="1"/>
+		<ProtocolDef17 ChineseName="遥控信息结束地址" Type="8" Size="2" DefVal="25088" CommonStat="1"/>
+		<ProtocolDef18 ChineseName="设定信息起始地址" Type="8" Size="2" DefVal="25089" CommonStat="1"/>
+		<ProtocolDef19 ChineseName="设定信息结束地址" Type="8" Size="2" DefVal="25600" CommonStat="1"/>
+		<ProtocolDef20 ChineseName="遥脉信息起始地址" Type="8" Size="2" DefVal="25601" CommonStat="1"/>
+		<ProtocolDef21 ChineseName="遥脉信息结束地址" Type="8" Size="2" DefVal="26112" CommonStat="1"/>
+		<ProtocolDef22 ChineseName="步位置信息起始地址" Type="8" Size="2" DefVal="26113" CommonStat="1"/>
+		<ProtocolDef23 ChineseName="步位置信息结束地址" Type="8" Size="2" DefVal="26368" CommonStat="1"/>
+		<ProtocolDef24 ChineseName="水位置信息起始地址" Type="8" Size="2" DefVal="26369" CommonStat="1"/>
+		<ProtocolDef25 ChineseName="水位置信息结束地址" Type="8" Size="2" DefVal="26624" CommonStat="1"/>
+		<ProtocolDef26 ChineseName="子站远动终端状态地址" Type="8" Size="2" DefVal="26625" CommonStat="1"/>
+		<ProtocolDef27 ChineseName="文件传输起始地址" Type="8" Size="2" DefVal="26626" CommonStat="1"/>
+		<ProtocolDef28 ChineseName="文件传输结束地址" Type="8" Size="2" DefVal="28672" CommonStat="1"/>
+		<ProtocolDef29 ChineseName="传送原因长度(101-1bytes 104-2bytes)" Type="8" Size="2" DefVal="1" CommonStat="0"/>
+		<ProtocolDef30 ChineseName="公共地址长度(101-1bytes 104-2bytes)" Type="8" Size="2" DefVal="1" CommonStat="0"/>
+		<ProtocolDef31 ChineseName="信息体地址长度(101-2bytes 104-3bytes)" Type="8" Size="2" DefVal="2" CommonStat="0"/>
+		<ProtocolDef32 ChineseName="变化遥测类型(建议:M_ME_ND_1(13))" Type="8" Size="2" DefVal="13" CommonStat="0"/>
+		<ProtocolDef33 ChineseName="变化遥信类型(建议:M_SP_NA_1(1))" Type="8" Size="2" DefVal="1" CommonStat="0"/>
+		<ProtocolDef34 ChineseName="带时标变化遥信类型(建议:M_SP_TA_1(2))" Type="8" Size="2" DefVal="2" CommonStat="0"/>
+		<ProtocolDef35 ChineseName="遥控类型(建议:C_SC_NA_1(45))" Type="8" Size="2" DefVal="45" CommonStat="0"/>
+		<ProtocolDef36 ChineseName="遥设类型(建议:C_SE_NC_1(50))" Type="8" Size="2" DefVal="50" CommonStat="0"/>
+		<ProtocolDef37 ChineseName="总召遥测类型(建议:M_ME_ND_1(13))" Type="8" Size="2" DefVal="13" CommonStat="0"/>
+		<ProtocolDef38 ChineseName="总召遥信类型(建议:M_SP_NA_1(1))" Type="8" Size="2" DefVal="1" CommonStat="0"/>
+		<ProtocolDef39 ChineseName="总召遥脉类型(建议:M_IT_NA_1())" Type="8" Size="2" DefVal="15" CommonStat="0"/>
+		<ProtocolDef40 ChineseName="总召唤时间( s)" Type="8" Size="2" DefVal="900" CommonStat="1"/>
+		<ProtocolDef41 ChineseName="对时时间( s)" Type="8" Size="2" DefVal="600" CommonStat="1"/>
+		<ProtocolDef42 ChineseName="总召电度时间( s)" Type="8" Size="2" DefVal="500" CommonStat="1"/>
+		<ProtocolDef43 ChineseName="等待应用层确认超时时间( s)" Type="8" Size="2" DefVal="8" CommonStat="1"/>
+		<ProtocolDef44 ChineseName="整形遥测字节顺序（0-低前高后，1-高前低后）" Type="8" Size="2" DefVal="0" CommonStat="0"/>
+		<ProtocolDef45 ChineseName="浮点遥测字节顺序（0-低前高后，1-高前低后）" Type="8" Size="2" DefVal="0" CommonStat="0"/>
+		<ProtocolDef46 ChineseName="遥测符号位" Type="8" Size="2" DefVal="15" CommonStat="1"/>
+		<ProtocolDef47 ChineseName="遥测数据位数" Type="8" Size="2" DefVal="14" CommonStat="1"/>
+		<ProtocolDef48 ChineseName="上传参数类型" Type="8" Size="2" DefVal="68" CommonStat="1"/>
+		<ProtocolDef49 ChineseName="背景扫描计时(s)" Type="8" Size="2" DefVal="900" CommonStat="1"/>
+		<ProtocolDef50 ChineseName="检修信号是否上送主站（0::不上，1:上）" Type="8" Size="2" DefVal="1" CommonStat="1"/>
+		<ProtocolDef51 ChineseName="是否需要发送E5报文" Type="8" Size="2" DefVal="0" CommonStat="1"/>
+		<ProtocolDef52 ChineseName="总召报文优先级（0-遥信优先;1-遥测优先）" Type="8" Size="2" DefVal="0" CommonStat="1"/>
+	</ProtocolDefCfg1>
+	<ProtocolDefCfg2 Count="60">
+		<ProtocolDef0 ChineseName="连接建立的超时T0(ms,建议:30000)" Type="8" Size="2" DefVal="30000" CommonStat="1"/>
+		<ProtocolDef1 ChineseName="U格式测试等待超时T1(ms,建议:15000)" Type="8" Size="2" DefVal="15000" CommonStat="1"/>
+		<ProtocolDef2 ChineseName="等待S格式或信息确认报文的超时T2(ms,建议:10000)" Type="8" Size="2" DefVal="10000" CommonStat="1"/>
+		<ProtocolDef3 ChineseName="系统空闲启动U格式测试间隔时间T3(ms,建议:30000)" Type="8" Size="2" DefVal="30000" CommonStat="1"/>
+		<ProtocolDef4 ChineseName="等待启动帧(0-No，1-Yes)" Type="8" Size="2" DefVal="1" CommonStat="1"/>
+		<ProtocolDef5 ChineseName="是否检查序列号(0-No，1-Yes)" Type="8" Size="2" DefVal="0" CommonStat="1"/>
+		<ProtocolDef6 ChineseName="回S帧确认包数(建议:8)" Type="8" Size="2" DefVal="5" CommonStat="1"/>
+		<ProtocolDef7 ChineseName="向客户端发送S帧包数" Type="8" Size="2" DefVal="0" CommonStat="1"/>
+		<ProtocolDef8 ChineseName="预留" Type="8" Size="2" DefVal="0" CommonStat="1"/>
+		<ProtocolDef9 ChineseName="公共地址" Type="8" Size="2" DefVal="0" CommonStat="0"/>
+		<ProtocolDef10 ChineseName="保护事件处理方式(0-转遥信 1 - 纯保护 2- 复用)" Type="8" Size="2" DefVal="0" CommonStat="1"/>
+		<ProtocolDef11 ChineseName="遥信信息起始地址" Type="8" Size="2" DefVal="1" CommonStat="1"/>
+		<ProtocolDef12 ChineseName="遥信信息结束地址" Type="8" Size="2" DefVal="8192" CommonStat="1"/>
+		<ProtocolDef13 ChineseName="继电保护单个事件的信息起始地址" Type="8" Size="2" DefVal="4097" CommonStat="1"/>
+		<ProtocolDef14 ChineseName="继电保护单个事件的信息结束地址" Type="8" Size="2" DefVal="8192" CommonStat="1"/>
+		<ProtocolDef15 ChineseName="继电保护具有启动事件的事件顺序记录的信息起始地址" Type="8" Size="2" DefVal="8193" CommonStat="1"/>
+		<ProtocolDef16 ChineseName="继电保护具有启动事件的事件顺序记录的信息结束地址" Type="8" Size="2" DefVal="12288" CommonStat="1"/>
+		<ProtocolDef17 ChineseName="继电保护装置成组输出电路信息起始地址" Type="8" Size="2" DefVal="12289" CommonStat="1"/>
+		<ProtocolDef18 ChineseName="继电保护装置成组输出电路信息结束地址" Type="8" Size="2" DefVal="16384" CommonStat="1"/>
+		<ProtocolDef19 ChineseName="遥测信息起始地址" Type="8" Size="2" DefVal="16385" CommonStat="1"/>
+		<ProtocolDef20 ChineseName="遥测信息结束地址" Type="8" Size="2" DefVal="20480" CommonStat="1"/>
+		<ProtocolDef21 ChineseName="遥测参数信息起始地址" Type="8" Size="2" DefVal="20481" CommonStat="1"/>
+		<ProtocolDef22 ChineseName="遥测参数信息结束地址" Type="8" Size="2" DefVal="24576" CommonStat="1"/>
+		<ProtocolDef23 ChineseName="遥控信息起始地址" Type="8" Size="2" DefVal="24577" CommonStat="1"/>
+		<ProtocolDef24 ChineseName="遥控信息结束地址" Type="8" Size="2" DefVal="25088" CommonStat="1"/>
+		<ProtocolDef25 ChineseName="设定信息起始地址" Type="8" Size="2" DefVal="25089" CommonStat="1"/>
+		<ProtocolDef26 ChineseName="设定信息结束地址" Type="8" Size="2" DefVal="25600" CommonStat="1"/>
+		<ProtocolDef27 ChineseName="遥脉信息起始地址" Type="8" Size="2" DefVal="25601" CommonStat="1"/>
+		<ProtocolDef28 ChineseName="遥脉信息结束地址" Type="8" Size="2" DefVal="26112" CommonStat="1"/>
+		<ProtocolDef29 ChineseName="步位置信息起始地址" Type="8" Size="2" DefVal="26113" CommonStat="1"/>
+		<ProtocolDef30 ChineseName="步位置信息结束地址" Type="8" Size="2" DefVal="26368" CommonStat="1"/>
+		<ProtocolDef31 ChineseName="水位置信息起始地址" Type="8" Size="2" DefVal="26369" CommonStat="1"/>
+		<ProtocolDef32 ChineseName="水位置信息结束地址" Type="8" Size="2" DefVal="26624" CommonStat="1"/>
+		<ProtocolDef33 ChineseName="子站远动终端状态地址" Type="8" Size="2" DefVal="26625" CommonStat="1"/>
+		<ProtocolDef34 ChineseName="文件传输起始地址" Type="8" Size="2" DefVal="26626" CommonStat="1"/>
+		<ProtocolDef35 ChineseName="文件传输结束地址" Type="8" Size="2" DefVal="28672" CommonStat="1"/>
+		<ProtocolDef36 ChineseName="传送原因长度(101-1bytes 104-2bytes)" Type="8" Size="2" DefVal="2" CommonStat="0"/>
+		<ProtocolDef37 ChineseName="公共地址长度(101-1bytes 104-2bytes)" Type="8" Size="2" DefVal="2" CommonStat="0"/>
+		<ProtocolDef38 ChineseName="信息体地址长度(101-2bytes 104-3bytes)" Type="8" Size="2" DefVal="3" CommonStat="0"/>
+		<ProtocolDef39 ChineseName="变化遥测类型(建议:M_ME_ND_1(13))" Type="8" Size="2" DefVal="13" CommonStat="0"/>
+		<ProtocolDef40 ChineseName="变化遥信类型(建议:M_SP_NA_1(1))" Type="8" Size="2" DefVal="1" CommonStat="0"/>
+		<ProtocolDef41 ChineseName="带时标变化遥信类型(建议:M_SP_TA_1(2))" Type="8" Size="2" DefVal="2" CommonStat="0"/>
+		<ProtocolDef42 ChineseName="遥控类型(建议:C_SC_NA_1(45))" Type="8" Size="2" DefVal="45" CommonStat="0"/>
+		<ProtocolDef43 ChineseName="遥设类型(建议:C_SE_NC_1(50))" Type="8" Size="2" DefVal="50" CommonStat="0"/>
+		<ProtocolDef44 ChineseName="总召遥测类型(建议:M_ME_ND_1(13))" Type="8" Size="2" DefVal="13" CommonStat="0"/>
+		<ProtocolDef45 ChineseName="总召遥信类型(建议:M_SP_NA_1(1))" Type="8" Size="2" DefVal="1" CommonStat="0"/>
+		<ProtocolDef46 ChineseName="总召遥脉类型(建议:M_IT_NA_1())" Type="8" Size="2" DefVal="15" CommonStat="0"/>
+		<ProtocolDef47 ChineseName="总召唤时间( s)" Type="8" Size="2" DefVal="900" CommonStat="1"/>
+		<ProtocolDef48 ChineseName="对时时间( s)" Type="8" Size="2" DefVal="600" CommonStat="1"/>
+		<ProtocolDef49 ChineseName="总召电度时间( s)" Type="8" Size="2" DefVal="500" CommonStat="1"/>
+		<ProtocolDef50 ChineseName="等待应用层确认超时时间( s)" Type="8" Size="2" DefVal="8" CommonStat="1"/>
+		<ProtocolDef51 ChineseName="整形遥测字节顺序（0-低前高后，1-高前低后）" Type="8" Size="2" DefVal="0" CommonStat="0"/>
+		<ProtocolDef52 ChineseName="浮点遥测字节顺序（0-低前高后，1-高前低后）" Type="8" Size="2" DefVal="0" CommonStat="0"/>
+		<ProtocolDef53 ChineseName="遥测符号位" Type="8" Size="2" DefVal="15" CommonStat="1"/>
+		<ProtocolDef54 ChineseName="遥测数据位数" Type="8" Size="2" DefVal="14" CommonStat="1"/>
+		<ProtocolDef55 ChineseName="上传参数类型" Type="8" Size="2" DefVal="68" CommonStat="1"/>
+		<ProtocolDef56 ChineseName="背景扫描计时(s)" Type="8" Size="2" DefVal="900" CommonStat="1"/>
+		<ProtocolDef57 ChineseName="检修信号是否上送主站（0：不上,1:上）" Type="8" Size="2" DefVal="1" CommonStat="1"/>
+		<ProtocolDef58 ChineseName="IP列表(用,隔开)" Type="11" Size="128" DefVal="" CommonStat="0"/>
+		<ProtocolDef59 ChineseName="版本号(1:IEC104 2:HD104)" Type="8" Size="2" DefVal="1" CommonStat="1"/>
+	</ProtocolDefCfg2>
+	<ProtocolDefCfg3 Count="8">
+		<ProtocolDef0 ChineseName="厂站号" Type="8" Size="2" DefVal="0" CommonStat="0"/>
+		<ProtocolDef1 ChineseName="保护事件处理方式(0:转遥信 1:纯保护 2:复用)" Type="8" Size="2" DefVal="0" CommonStat="1"/>
+		<ProtocolDef2 ChineseName="0-非61850 1-61850" Type="8" Size="2" DefVal="1" CommonStat="0"/>
+		<ProtocolDef3 ChineseName="虚遥信采集规约号" Type="8" Size="2" DefVal="65535" CommonStat="0"/>
+		<ProtocolDef4 ChineseName="全遥测上送周期（单位：秒）" Type="8" Size="2" DefVal="60" CommonStat="0"/>
+		<ProtocolDef5 ChineseName="全遥信上送周期（单位：秒）" Type="8" Size="2" DefVal="60" CommonStat="0"/>
+		<ProtocolDef6 ChineseName="全遥脉上送周期（单位：秒）" Type="8" Size="2" DefVal="110" CommonStat="0"/>
+		<ProtocolDef7 ChineseName="通道工况时间间隔（单位：秒）" Type="8" Size="2" DefVal="5" CommonStat="0"/>
+	</ProtocolDefCfg3>
+	<ProtocolDefCfg4 Count="12">
+		<ProtocolDef0 ChineseName="源地址" Type="8" Size="2" DefVal="0" CommonStat="0"/>
+		<ProtocolDef1 ChineseName="目标地址" Type="8" Size="2" DefVal="0" CommonStat="0"/>
+		<ProtocolDef2 ChineseName="保护事件处理方式(0:转遥信 1:纯保护 2:复用)" Type="8" Size="2" DefVal="0" CommonStat="1"/>
+		<ProtocolDef3 ChineseName="发送时间间隔" Type="8" Size="2" DefVal="3000" CommonStat="1"/>
+		<ProtocolDef4 ChineseName="CRC校验(1:正码 其他:反码)" Type="8" Size="2" DefVal="1" CommonStat="0"/>
+		<ProtocolDef5 ChineseName="同步头(1:EB90 其他:D709)" Type="8" Size="2" DefVal="1" CommonStat="0"/>
+		<ProtocolDef6 ChineseName="遥测符号位" Type="7" Size="1" DefVal="11" CommonStat="1"/>
+		<ProtocolDef7 ChineseName="版本标示" Type="7" Size="1" DefVal="0" CommonStat="1"/>
+		<ProtocolDef8 ChineseName="是否为扩展CDT（0:CDT，1:扩展CDT）" Type="7" Size="1" DefVal="0" CommonStat="1"/>
+		<ProtocolDef9 ChineseName="是否判断遥测有效位" Type="7" Size="1" DefVal="0" CommonStat="1"/>
+		<ProtocolDef10 ChineseName="是否判断遥测溢出位" Type="7" Size="1" DefVal="0" CommonStat="1"/>
+		<ProtocolDef11 ChineseName="控制字类型（0-71H，1-41H）" Type="7" Size="1" DefVal="0" CommonStat="0"/>
+	</ProtocolDefCfg4>
+	<ProtocolDefCfg5 Count="6">
+		<ProtocolDef0 ChineseName="源地址" Type="8" Size="2" DefVal="0" CommonStat="0"/>
+		<ProtocolDef1 ChineseName="目标地址" Type="8" Size="2" DefVal="0" CommonStat="0"/>
+		<ProtocolDef2 ChineseName="保护事件处理方式(0:转遥信 1:纯保护 2:复用)" Type="8" Size="2" DefVal="0" CommonStat="1"/>
+		<ProtocolDef3 ChineseName="发送时间间隔" Type="8" Size="2" DefVal="3000" CommonStat="1"/>
+		<ProtocolDef4 ChineseName="CRC校验(1:正码 其他:反码)" Type="8" Size="2" DefVal="1" CommonStat="0"/>
+		<ProtocolDef5 ChineseName="遥测符号位" Type="7" Size="1" DefVal="11" CommonStat="1"/>
+	</ProtocolDefCfg5>
+	<ProtocolDefCfg6 Count="8">
+		<ProtocolDef0 ChineseName="链路地址" Type="8" Size="2" DefVal="1" CommonStat="0"/>
+		<ProtocolDef1 ChineseName="公共地址" Type="8" Size="2" DefVal="1" CommonStat="0"/>
+		<ProtocolDef2 ChineseName="遥测FUN" Type="8" Size="2" DefVal="1" CommonStat="0"/>
+		<ProtocolDef3 ChineseName="遥信FUN" Type="8" Size="2" DefVal="1" CommonStat="0"/>
+		<ProtocolDef4 ChineseName="遥控FUN" Type="8" Size="2" DefVal="1" CommonStat="0"/>
+		<ProtocolDef5 ChineseName="遥脉FUN" Type="8" Size="2" DefVal="1" CommonStat="0"/>
+		<ProtocolDef6 ChineseName="第一个保护装置的地址" Type="8" Size="2" DefVal="1" CommonStat="0"/>
+		<ProtocolDef7 ChineseName="最后一个保护装置的地址" Type="8" Size="2" DefVal="1" CommonStat="0"/>
+	</ProtocolDefCfg6>
+	<ProtocolDefCfg7 Count="9">
+		<ProtocolDef0 ChineseName="链路地址" Type="8" Size="2" DefVal="1" CommonStat="0"/>
+		<ProtocolDef1 ChineseName="公共地址" Type="8" Size="2" DefVal="1" CommonStat="0"/>
+		<ProtocolDef2 ChineseName="遥测FUN" Type="8" Size="2" DefVal="1" CommonStat="0"/>
+		<ProtocolDef3 ChineseName="遥信FUN" Type="8" Size="2" DefVal="1" CommonStat="0"/>
+		<ProtocolDef4 ChineseName="遥控FUN" Type="8" Size="2" DefVal="1" CommonStat="0"/>
+		<ProtocolDef5 ChineseName="遥脉FUN" Type="8" Size="2" DefVal="1" CommonStat="0"/>
+		<ProtocolDef6 ChineseName="第一个保护装置的地址" Type="8" Size="2" DefVal="1" CommonStat="0"/>
+		<ProtocolDef7 ChineseName="最后一个保护装置的地址" Type="8" Size="2" DefVal="1" CommonStat="0"/>
+		<ProtocolDef8 ChineseName="客户端IP" Type="11" Size="128" DefVal="192.168.0.10," CommonStat="0"/>
+	</ProtocolDefCfg7>
+	<ProtocolDefCfg8 Count="1">
+		<ProtocolDef0 ChineseName="是否转发全部转发表(0:不1:是)" Type="8" Size="2" DefVal="1" CommonStat="0"/>
+	</ProtocolDefCfg8>
+	<ProtocolDefCfg9 Count="0">
+</ProtocolDefCfg9>
+	<ProtocolDefCfg10 Count="0">
+</ProtocolDefCfg10>
+	<ProtocolDefCfg11 Count="64">
+		<ProtocolDef0 ChineseName="连接建立的超时T0(ms,建议:30000)" Type="8" Size="2" DefVal="30000" CommonStat="1"/>
+		<ProtocolDef1 ChineseName="U格式测试等待超时T1(ms,建议:15000)" Type="8" Size="2" DefVal="15000" CommonStat="1"/>
+		<ProtocolDef2 ChineseName="等待S格式或信息确认报文的超时T2(ms,建议:10000)" Type="8" Size="2" DefVal="10000" CommonStat="1"/>
+		<ProtocolDef3 ChineseName="系统空闲启动U格式测试间隔时间T3(ms,建议:30000)" Type="8" Size="2" DefVal="30000" CommonStat="1"/>
+		<ProtocolDef4 ChineseName="等待启动帧(0-No，1-Yes)" Type="8" Size="2" DefVal="1" CommonStat="1"/>
+		<ProtocolDef5 ChineseName="是否检查序列号(0-No，1-Yes)" Type="8" Size="2" DefVal="0" CommonStat="1"/>
+		<ProtocolDef6 ChineseName="回S帧确认包数(建议:8)" Type="8" Size="2" DefVal="5" CommonStat="1"/>
+		<ProtocolDef7 ChineseName="向客户端发送S帧包数" Type="8" Size="2" DefVal="0" CommonStat="1"/>
+		<ProtocolDef8 ChineseName="预留" Type="8" Size="2" DefVal="0" CommonStat="1"/>
+		<ProtocolDef9 ChineseName="公共地址" Type="8" Size="2" DefVal="0" CommonStat="0"/>
+		<ProtocolDef10 ChineseName="保护事件处理方式(0-转遥信 1 - 纯保护 2- 复用)" Type="8" Size="2" DefVal="0" CommonStat="1"/>
+		<ProtocolDef11 ChineseName="遥信信息起始地址" Type="8" Size="2" DefVal="1" CommonStat="1"/>
+		<ProtocolDef12 ChineseName="遥信信息结束地址" Type="8" Size="2" DefVal="8192" CommonStat="1"/>
+		<ProtocolDef13 ChineseName="继电保护单个事件的信息起始地址" Type="8" Size="2" DefVal="4097" CommonStat="1"/>
+		<ProtocolDef14 ChineseName="继电保护单个事件的信息结束地址" Type="8" Size="2" DefVal="8192" CommonStat="1"/>
+		<ProtocolDef15 ChineseName="继电保护具有启动事件的事件顺序记录的信息起始地址" Type="8" Size="2" DefVal="8193" CommonStat="1"/>
+		<ProtocolDef16 ChineseName="继电保护具有启动事件的事件顺序记录的信息结束地址" Type="8" Size="2" DefVal="12288" CommonStat="1"/>
+		<ProtocolDef17 ChineseName="继电保护装置成组输出电路信息起始地址" Type="8" Size="2" DefVal="12289" CommonStat="1"/>
+		<ProtocolDef18 ChineseName="继电保护装置成组输出电路信息结束地址" Type="8" Size="2" DefVal="16384" CommonStat="1"/>
+		<ProtocolDef19 ChineseName="遥测信息起始地址" Type="8" Size="2" DefVal="16385" CommonStat="1"/>
+		<ProtocolDef20 ChineseName="遥测信息结束地址" Type="8" Size="2" DefVal="20480" CommonStat="1"/>
+		<ProtocolDef21 ChineseName="遥测参数信息起始地址" Type="8" Size="2" DefVal="20481" CommonStat="1"/>
+		<ProtocolDef22 ChineseName="遥测参数信息结束地址" Type="8" Size="2" DefVal="24576" CommonStat="1"/>
+		<ProtocolDef23 ChineseName="遥控信息起始地址" Type="8" Size="2" DefVal="24577" CommonStat="1"/>
+		<ProtocolDef24 ChineseName="遥控信息结束地址" Type="8" Size="2" DefVal="25088" CommonStat="1"/>
+		<ProtocolDef25 ChineseName="设定信息起始地址" Type="8" Size="2" DefVal="25089" CommonStat="1"/>
+		<ProtocolDef26 ChineseName="设定信息结束地址" Type="8" Size="2" DefVal="25600" CommonStat="1"/>
+		<ProtocolDef27 ChineseName="遥脉信息起始地址" Type="8" Size="2" DefVal="25601" CommonStat="1"/>
+		<ProtocolDef28 ChineseName="遥脉信息结束地址" Type="8" Size="2" DefVal="26112" CommonStat="1"/>
+		<ProtocolDef29 ChineseName="步位置信息起始地址" Type="8" Size="2" DefVal="26113" CommonStat="1"/>
+		<ProtocolDef30 ChineseName="步位置信息结束地址" Type="8" Size="2" DefVal="26368" CommonStat="1"/>
+		<ProtocolDef31 ChineseName="水位置信息起始地址" Type="8" Size="2" DefVal="26369" CommonStat="1"/>
+		<ProtocolDef32 ChineseName="水位置信息结束地址" Type="8" Size="2" DefVal="26624" CommonStat="1"/>
+		<ProtocolDef33 ChineseName="子站远动终端状态地址" Type="8" Size="2" DefVal="26625" CommonStat="1"/>
+		<ProtocolDef34 ChineseName="文件传输起始地址" Type="8" Size="2" DefVal="26626" CommonStat="1"/>
+		<ProtocolDef35 ChineseName="文件传输结束地址" Type="8" Size="2" DefVal="28672" CommonStat="1"/>
+		<ProtocolDef36 ChineseName="传送原因长度(101-1bytes 104-2bytes)" Type="8" Size="2" DefVal="2" CommonStat="0"/>
+		<ProtocolDef37 ChineseName="公共地址长度(101-1bytes 104-2bytes)" Type="8" Size="2" DefVal="2" CommonStat="0"/>
+		<ProtocolDef38 ChineseName="信息体地址长度(101-2bytes 104-3bytes)" Type="8" Size="2" DefVal="3" CommonStat="0"/>
+		<ProtocolDef39 ChineseName="变化遥测类型(建议:M_ME_ND_1(13)" Type="8" Size="2" DefVal="13" CommonStat="0"/>
+		<ProtocolDef40 ChineseName="变化遥信类型(建议:M_SP_NA_1(1))" Type="8" Size="2" DefVal="1" CommonStat="0"/>
+		<ProtocolDef41 ChineseName="带时标变化遥信类型(建议:M_SP_TA_1(2))" Type="8" Size="2" DefVal="2" CommonStat="0"/>
+		<ProtocolDef42 ChineseName="遥控类型(建议:C_SC_NA_1(45))" Type="8" Size="2" DefVal="45" CommonStat="0"/>
+		<ProtocolDef43 ChineseName="遥设类型(建议:C_SE_NC_1(50))" Type="8" Size="2" DefVal="50" CommonStat="0"/>
+		<ProtocolDef44 ChineseName="总召遥测类型(建议:M_ME_ND_1(13))" Type="8" Size="2" DefVal="13" CommonStat="0"/>
+		<ProtocolDef45 ChineseName="总召遥信类型(建议:M_SP_NA_1(1))" Type="8" Size="2" DefVal="1" CommonStat="0"/>
+		<ProtocolDef46 ChineseName="总召遥脉类型(建议:M_IT_NA_1())" Type="8" Size="2" DefVal="15" CommonStat="0"/>
+		<ProtocolDef47 ChineseName="总召唤时间( s)" Type="8" Size="2" DefVal="900" CommonStat="1"/>
+		<ProtocolDef48 ChineseName="对时时间( s)" Type="8" Size="2" DefVal="600" CommonStat="1"/>
+		<ProtocolDef49 ChineseName="总召电度时间( s)" Type="8" Size="2" DefVal="500" CommonStat="1"/>
+		<ProtocolDef50 ChineseName="等待应用层确认超时时间( s)" Type="8" Size="2" DefVal="8" CommonStat="1"/>
+		<ProtocolDef51 ChineseName="整形遥测字节顺序（0-低前高后，1-高前低后）" Type="8" Size="2" DefVal="0" CommonStat="0"/>
+		<ProtocolDef52 ChineseName="浮点遥测字节顺序（0-低前高后，1-高前低后）" Type="8" Size="2" DefVal="0" CommonStat="0"/>
+		<ProtocolDef53 ChineseName="遥测符号位" Type="8" Size="2" DefVal="15" CommonStat="1"/>
+		<ProtocolDef54 ChineseName="遥测数据位数" Type="8" Size="2" DefVal="14" CommonStat="1"/>
+		<ProtocolDef55 ChineseName="上传参数类型" Type="8" Size="2" DefVal="68" CommonStat="1"/>
+		<ProtocolDef56 ChineseName="背景扫描计时" Type="8" Size="2" DefVal="900" CommonStat="1"/>
+		<ProtocolDef57 ChineseName="检修信号是否上送主站（0：不上，1：上）" Type="8" Size="2" DefVal="1" CommonStat="1"/>
+		<ProtocolDef58 ChineseName="IP列表1(用,隔开,限填8个)" Type="11" Size="128" DefVal="" CommonStat="0"/>
+		<ProtocolDef59 ChineseName="IP列表2(用,隔开,限填8个)" Type="11" Size="128" DefVal="" CommonStat="0"/>
+		<ProtocolDef60 ChineseName="版本号(1:IEC104 2:HD104)" Type="8" Size="2" DefVal="1" CommonStat="1"/>
+		<ProtocolDef61 ChineseName="子站是否需要发送U格式测试帧" Type="8" Size="2" DefVal="1" CommonStat="1"/>
+		<ProtocolDef62 ChineseName="不允许遥控的主站IP列表" Type="11" Size="128" DefVal="" CommonStat="1"/>
+		<ProtocolDef63 ChineseName="公共地址列表，与IP地址一一对应" Type="11" Size="128" DefVal="" CommonStat="0"/>
+	</ProtocolDefCfg11>
+	<ProtocolDefCfg12 Count="64">
+		<ProtocolDef0 ChineseName="连接建立的超时T0(ms,建议:30000)" Type="8" Size="2" DefVal="30000" CommonStat="1"/>
+		<ProtocolDef1 ChineseName="U格式测试等待超时T1(ms,建议:15000)" Type="8" Size="2" DefVal="15000" CommonStat="1"/>
+		<ProtocolDef2 ChineseName="等待S格式或信息确认报文的超时T2(ms,建议:10000)" Type="8" Size="2" DefVal="10000" CommonStat="1"/>
+		<ProtocolDef3 ChineseName="系统空闲启动U格式测试间隔时间T3(ms,建议:30000)" Type="8" Size="2" DefVal="30000" CommonStat="1"/>
+		<ProtocolDef4 ChineseName="等待启动帧(0-No，1-Yes)" Type="8" Size="2" DefVal="1" CommonStat="1"/>
+		<ProtocolDef5 ChineseName="是否检查序列号(0-No，1-Yes)" Type="8" Size="2" DefVal="0" CommonStat="1"/>
+		<ProtocolDef6 ChineseName="回S帧确认包数(建议:8)" Type="8" Size="2" DefVal="5" CommonStat="1"/>
+		<ProtocolDef7 ChineseName="向客户端发送S帧包数" Type="8" Size="2" DefVal="0" CommonStat="1"/>
+		<ProtocolDef8 ChineseName="预留" Type="8" Size="2" DefVal="0" CommonStat="1"/>
+		<ProtocolDef9 ChineseName="公共地址" Type="8" Size="2" DefVal="0" CommonStat="0"/>
+		<ProtocolDef10 ChineseName="保护事件处理方式(0-转遥信 1 - 纯保护 2- 复用)" Type="8" Size="2" DefVal="0" CommonStat="1"/>
+		<ProtocolDef11 ChineseName="遥信信息起始地址" Type="8" Size="2" DefVal="1" CommonStat="1"/>
+		<ProtocolDef12 ChineseName="遥信信息结束地址" Type="8" Size="2" DefVal="8192" CommonStat="1"/>
+		<ProtocolDef13 ChineseName="继电保护单个事件的信息起始地址" Type="8" Size="2" DefVal="4097" CommonStat="1"/>
+		<ProtocolDef14 ChineseName="继电保护单个事件的信息结束地址" Type="8" Size="2" DefVal="8192" CommonStat="1"/>
+		<ProtocolDef15 ChineseName="继电保护具有启动事件的事件顺序记录的信息起始地址" Type="8" Size="2" DefVal="8193" CommonStat="1"/>
+		<ProtocolDef16 ChineseName="继电保护具有启动事件的事件顺序记录的信息结束地址" Type="8" Size="2" DefVal="12288" CommonStat="1"/>
+		<ProtocolDef17 ChineseName="继电保护装置成组输出电路信息起始地址" Type="8" Size="2" DefVal="12289" CommonStat="1"/>
+		<ProtocolDef18 ChineseName="继电保护装置成组输出电路信息结束地址" Type="8" Size="2" DefVal="16384" CommonStat="1"/>
+		<ProtocolDef19 ChineseName="遥测信息起始地址" Type="8" Size="2" DefVal="16385" CommonStat="1"/>
+		<ProtocolDef20 ChineseName="遥测信息结束地址" Type="8" Size="2" DefVal="20480" CommonStat="1"/>
+		<ProtocolDef21 ChineseName="遥测参数信息起始地址" Type="8" Size="2" DefVal="20481" CommonStat="1"/>
+		<ProtocolDef22 ChineseName="遥测参数信息结束地址" Type="8" Size="2" DefVal="24576" CommonStat="1"/>
+		<ProtocolDef23 ChineseName="遥控信息起始地址" Type="8" Size="2" DefVal="24577" CommonStat="1"/>
+		<ProtocolDef24 ChineseName="遥控信息结束地址" Type="8" Size="2" DefVal="25088" CommonStat="1"/>
+		<ProtocolDef25 ChineseName="设定信息起始地址" Type="8" Size="2" DefVal="25089" CommonStat="1"/>
+		<ProtocolDef26 ChineseName="设定信息结束地址" Type="8" Size="2" DefVal="25600" CommonStat="1"/>
+		<ProtocolDef27 ChineseName="遥脉信息起始地址" Type="8" Size="2" DefVal="25601" CommonStat="1"/>
+		<ProtocolDef28 ChineseName="遥脉信息结束地址" Type="8" Size="2" DefVal="26112" CommonStat="1"/>
+		<ProtocolDef29 ChineseName="步位置信息起始地址" Type="8" Size="2" DefVal="26113" CommonStat="1"/>
+		<ProtocolDef30 ChineseName="步位置信息结束地址" Type="8" Size="2" DefVal="26368" CommonStat="1"/>
+		<ProtocolDef31 ChineseName="水位置信息起始地址" Type="8" Size="2" DefVal="26369" CommonStat="1"/>
+		<ProtocolDef32 ChineseName="水位置信息结束地址" Type="8" Size="2" DefVal="26624" CommonStat="1"/>
+		<ProtocolDef33 ChineseName="子站远动终端状态地址" Type="8" Size="2" DefVal="26625" CommonStat="1"/>
+		<ProtocolDef34 ChineseName="文件传输起始地址" Type="8" Size="2" DefVal="26626" CommonStat="1"/>
+		<ProtocolDef35 ChineseName="文件传输结束地址" Type="8" Size="2" DefVal="28672" CommonStat="1"/>
+		<ProtocolDef36 ChineseName="传送原因长度(101-1bytes 104-2bytes)" Type="8" Size="2" DefVal="2" CommonStat="0"/>
+		<ProtocolDef37 ChineseName="公共地址长度(101-1bytes 104-2bytes)" Type="8" Size="2" DefVal="2" CommonStat="0"/>
+		<ProtocolDef38 ChineseName="信息体地址长度(101-2bytes 104-3bytes)" Type="8" Size="2" DefVal="3" CommonStat="0"/>
+		<ProtocolDef39 ChineseName="变化遥测类型(建议:M_ME_ND_1(13))" Type="8" Size="2" DefVal="13" CommonStat="0"/>
+		<ProtocolDef40 ChineseName="变化遥信类型(建议:M_SP_NA_1(1))" Type="8" Size="2" DefVal="1" CommonStat="0"/>
+		<ProtocolDef41 ChineseName="带时标变化遥信类型(建议:M_SP_TA_1(2))" Type="8" Size="2" DefVal="2" CommonStat="0"/>
+		<ProtocolDef42 ChineseName="遥控类型(建议:C_SC_NA_1(45))" Type="8" Size="2" DefVal="45" CommonStat="0"/>
+		<ProtocolDef43 ChineseName="遥设类型(建议:C_SE_NC_1(50))" Type="8" Size="2" DefVal="50" CommonStat="0"/>
+		<ProtocolDef44 ChineseName="总召遥测类型(建议:M_ME_ND_1(13))" Type="8" Size="2" DefVal="13" CommonStat="0"/>
+		<ProtocolDef45 ChineseName="总召遥信类型(建议:M_SP_NA_1(1))" Type="8" Size="2" DefVal="1" CommonStat="0"/>
+		<ProtocolDef46 ChineseName="总召遥脉类型(建议:M_IT_NA_1())" Type="8" Size="2" DefVal="15" CommonStat="0"/>
+		<ProtocolDef47 ChineseName="总召唤时间( s)" Type="8" Size="2" DefVal="900" CommonStat="1"/>
+		<ProtocolDef48 ChineseName="对时时间( s)" Type="8" Size="2" DefVal="600" CommonStat="1"/>
+		<ProtocolDef49 ChineseName="总召电度时间( s)" Type="8" Size="2" DefVal="500" CommonStat="1"/>
+		<ProtocolDef50 ChineseName="等待应用层确认超时时间( s)" Type="8" Size="2" DefVal="8" CommonStat="1"/>
+		<ProtocolDef51 ChineseName="整形遥测字节顺序（0-低前高后，1-高前低后）" Type="8" Size="2" DefVal="0" CommonStat="0"/>
+		<ProtocolDef52 ChineseName="浮点遥测字节顺序（0-低前高后，1-高前低后）" Type="8" Size="2" DefVal="0" CommonStat="0"/>
+		<ProtocolDef53 ChineseName="遥测符号位" Type="8" Size="2" DefVal="15" CommonStat="1"/>
+		<ProtocolDef54 ChineseName="遥测数据位数" Type="8" Size="2" DefVal="14" CommonStat="1"/>
+		<ProtocolDef55 ChineseName="上传参数类型" Type="8" Size="2" DefVal="68" CommonStat="1"/>
+		<ProtocolDef56 ChineseName="背景扫描计时(s)" Type="8" Size="2" DefVal="900" CommonStat="1"/>
+		<ProtocolDef57 ChineseName="检修信号是否上送主站（0：不上，1：上）" Type="8" Size="2" DefVal="1" CommonStat="1"/>
+		<ProtocolDef58 ChineseName="IP列表1(用,隔开,限填8个)" Type="11" Size="128" DefVal="" CommonStat="0"/>
+		<ProtocolDef59 ChineseName="IP列表2(用,隔开,限填8个)" Type="11" Size="128" DefVal="" CommonStat="0"/>
+		<ProtocolDef60 ChineseName="版本号(1:IEC104 2:HD104)" Type="8" Size="2" DefVal="1" CommonStat="1"/>
+		<ProtocolDef61 ChineseName="子站是否需要发送U格式测试帧" Type="8" Size="2" DefVal="0" CommonStat="1"/>
+		<ProtocolDef62 ChineseName="不允许遥控的主站IP列表" Type="11" Size="128" DefVal="" CommonStat="1"/>
+		<ProtocolDef63 ChineseName="公共地址列表，与IP地址一一对应" Type="11" Size="128" DefVal="" CommonStat="0"/>
+	</ProtocolDefCfg12>
+	<ProtocolDefCfg13 Count="67">
+		<ProtocolDef0 ChineseName="连接建立的超时T0(ms,建议:30000)" Type="8" Size="2" DefVal="30000" CommonStat="1"/>
+		<ProtocolDef1 ChineseName="U格式测试等待超时T1(ms,建议:15000)" Type="8" Size="2" DefVal="15000" CommonStat="1"/>
+		<ProtocolDef2 ChineseName="等待S格式或信息确认报文的超时T2(ms,建议:10000)" Type="8" Size="2" DefVal="10000" CommonStat="1"/>
+		<ProtocolDef3 ChineseName="系统空闲启动U格式测试间隔时间T3(ms,建议:30000)" Type="8" Size="2" DefVal="30000" CommonStat="1"/>
+		<ProtocolDef4 ChineseName="等待启动帧(0-No，1-Yes)" Type="8" Size="2" DefVal="1" CommonStat="1"/>
+		<ProtocolDef5 ChineseName="是否检查序列号(0-No，1-Yes)" Type="8" Size="2" DefVal="0" CommonStat="1"/>
+		<ProtocolDef6 ChineseName="回S帧确认包数(建议:8)" Type="8" Size="2" DefVal="5" CommonStat="1"/>
+		<ProtocolDef7 ChineseName="向客户端发送S帧包数" Type="8" Size="2" DefVal="0" CommonStat="1"/>
+		<ProtocolDef8 ChineseName="预留" Type="8" Size="2" DefVal="0" CommonStat="1"/>
+		<ProtocolDef9 ChineseName="公共地址" Type="8" Size="2" DefVal="0" CommonStat="0"/>
+		<ProtocolDef10 ChineseName="保护事件处理方式(0-转遥信 1 - 纯保护 2- 复用)" Type="8" Size="2" DefVal="0" CommonStat="1"/>
+		<ProtocolDef11 ChineseName="遥信信息起始地址" Type="8" Size="2" DefVal="1" CommonStat="1"/>
+		<ProtocolDef12 ChineseName="遥信信息结束地址" Type="8" Size="2" DefVal="8192" CommonStat="1"/>
+		<ProtocolDef13 ChineseName="继电保护单个事件的信息起始地址" Type="8" Size="2" DefVal="4097" CommonStat="1"/>
+		<ProtocolDef14 ChineseName="继电保护单个事件的信息结束地址" Type="8" Size="2" DefVal="8192" CommonStat="1"/>
+		<ProtocolDef15 ChineseName="继电保护具有启动事件的事件顺序记录的信息起始地址" Type="8" Size="2" DefVal="8193" CommonStat="1"/>
+		<ProtocolDef16 ChineseName="继电保护具有启动事件的事件顺序记录的信息结束地址" Type="8" Size="2" DefVal="12288" CommonStat="1"/>
+		<ProtocolDef17 ChineseName="继电保护装置成组输出电路信息起始地址" Type="8" Size="2" DefVal="12289" CommonStat="1"/>
+		<ProtocolDef18 ChineseName="继电保护装置成组输出电路信息结束地址" Type="8" Size="2" DefVal="16384" CommonStat="1"/>
+		<ProtocolDef19 ChineseName="遥测信息起始地址" Type="8" Size="2" DefVal="16385" CommonStat="1"/>
+		<ProtocolDef20 ChineseName="遥测信息结束地址" Type="8" Size="2" DefVal="20480" CommonStat="1"/>
+		<ProtocolDef21 ChineseName="遥测参数信息起始地址" Type="8" Size="2" DefVal="20481" CommonStat="1"/>
+		<ProtocolDef22 ChineseName="遥测参数信息结束地址" Type="8" Size="2" DefVal="24576" CommonStat="1"/>
+		<ProtocolDef23 ChineseName="遥控信息起始地址" Type="8" Size="2" DefVal="24577" CommonStat="1"/>
+		<ProtocolDef24 ChineseName="遥控信息结束地址" Type="8" Size="2" DefVal="25088" CommonStat="1"/>
+		<ProtocolDef25 ChineseName="设定信息起始地址" Type="8" Size="2" DefVal="25089" CommonStat="1"/>
+		<ProtocolDef26 ChineseName="设定信息结束地址" Type="8" Size="2" DefVal="25600" CommonStat="1"/>
+		<ProtocolDef27 ChineseName="遥脉信息起始地址" Type="8" Size="2" DefVal="25601" CommonStat="1"/>
+		<ProtocolDef28 ChineseName="遥脉信息结束地址" Type="8" Size="2" DefVal="26112" CommonStat="1"/>
+		<ProtocolDef29 ChineseName="步位置信息起始地址" Type="8" Size="2" DefVal="26113" CommonStat="1"/>
+		<ProtocolDef30 ChineseName="步位置信息结束地址" Type="8" Size="2" DefVal="26368" CommonStat="1"/>
+		<ProtocolDef31 ChineseName="水位置信息起始地址" Type="8" Size="2" DefVal="26369" CommonStat="1"/>
+		<ProtocolDef32 ChineseName="水位置信息结束地址" Type="8" Size="2" DefVal="26624" CommonStat="1"/>
+		<ProtocolDef33 ChineseName="子站远动终端状态地址" Type="8" Size="2" DefVal="26625" CommonStat="1"/>
+		<ProtocolDef34 ChineseName="文件传输起始地址" Type="8" Size="2" DefVal="26626" CommonStat="1"/>
+		<ProtocolDef35 ChineseName="文件传输结束地址" Type="8" Size="2" DefVal="28672" CommonStat="1"/>
+		<ProtocolDef36 ChineseName="传送原因长度(101-1bytes 104-2bytes)" Type="8" Size="2" DefVal="2" CommonStat="0"/>
+		<ProtocolDef37 ChineseName="公共地址长度(101-1bytes 104-2bytes)" Type="8" Size="2" DefVal="2" CommonStat="0"/>
+		<ProtocolDef38 ChineseName="信息体地址长度(101-2bytes 104-3bytes)" Type="8" Size="2" DefVal="3" CommonStat="0"/>
+		<ProtocolDef39 ChineseName="变化遥测类型(建议:M_ME_ND_1(13))" Type="8" Size="2" DefVal="13" CommonStat="0"/>
+		<ProtocolDef40 ChineseName="变化遥信类型(建议:M_SP_NA_1(1))" Type="8" Size="2" DefVal="1" CommonStat="0"/>
+		<ProtocolDef41 ChineseName="带时标变化遥信类型(建议:M_SP_TA_1(2))" Type="8" Size="2" DefVal="2" CommonStat="0"/>
+		<ProtocolDef42 ChineseName="遥控类型(建议:C_SC_NA_1(45))" Type="8" Size="2" DefVal="45" CommonStat="0"/>
+		<ProtocolDef43 ChineseName="总召遥测类型(建议:M_ME_ND_1(13))" Type="8" Size="2" DefVal="13" CommonStat="0"/>
+		<ProtocolDef44 ChineseName="总召遥信类型(建议:M_SP_NA_1(1))" Type="8" Size="2" DefVal="1" CommonStat="0"/>
+		<ProtocolDef45 ChineseName="总召遥脉类型(建议:M_IT_NA_1())" Type="8" Size="2" DefVal="15" CommonStat="0"/>
+		<ProtocolDef46 ChineseName="总召唤时间( s)" Type="8" Size="2" DefVal="900" CommonStat="1"/>
+		<ProtocolDef47 ChineseName="对时时间( s)" Type="8" Size="2" DefVal="600" CommonStat="1"/>
+		<ProtocolDef48 ChineseName="总召电度时间( s)" Type="8" Size="2" DefVal="500" CommonStat="1"/>
+		<ProtocolDef49 ChineseName="等待应用层确认超时时间( s)" Type="8" Size="2" DefVal="8" CommonStat="1"/>
+		<ProtocolDef50 ChineseName="遥测符号位" Type="8" Size="2" DefVal="15" CommonStat="1"/>
+		<ProtocolDef51 ChineseName="遥测数据位数" Type="8" Size="2" DefVal="14" CommonStat="1"/>
+		<ProtocolDef52 ChineseName="上传参数类型" Type="8" Size="2" DefVal="68" CommonStat="1"/>
+		<ProtocolDef53 ChineseName="背景扫描计时(s)" Type="8" Size="2" DefVal="900" CommonStat="1"/>
+		<ProtocolDef54 ChineseName="遥测字节顺序组装方式 (默认0:前低后高,1:前高后低)" Type="8" Size="2" DefVal="0" CommonStat="0"/>
+		<ProtocolDef55 ChineseName="总召时是否上送变化遥信（0:上送，1:不上送）" Type="8" Size="2" DefVal="0" CommonStat="0"/>
+		<ProtocolDef56 ChineseName="设备未完成总召时是否响应主站总召（0:不响应   1:响应）" Type="8" Size="2" DefVal="1" CommonStat="0"/>
+		<ProtocolDef57 ChineseName="设备总召超时（单位：秒）" Type="8" Size="2" DefVal="300" CommonStat="0"/>
+		<ProtocolDef58 ChineseName="遥控自动撤销等待时间(单位:秒)" Type="8" Size="2" DefVal="30" CommonStat="0"/>
+		<ProtocolDef59 ChineseName="IP列表1(用,隔开,限填8个)" Type="11" Size="128" DefVal="" CommonStat="0"/>
+		<ProtocolDef60 ChineseName="IP列表2(用,隔开,限填8个)" Type="11" Size="128" DefVal="" CommonStat="0"/>
+		<ProtocolDef61 ChineseName="IP列表3(用,隔开,限填8个)" Type="11" Size="128" DefVal="" CommonStat="0"/>
+		<ProtocolDef62 ChineseName="版本号(1:IEC104 2:HD104)" Type="8" Size="2" DefVal="1" CommonStat="1"/>
+		<ProtocolDef63 ChineseName="子站是否需要发送U格式测试帧" Type="8" Size="2" DefVal="0" CommonStat="1"/>
+		<ProtocolDef64 ChineseName="停止状态下是否响应和发送U测试报文" Type="8" Size="2" DefVal="0" CommonStat="1"/>
+		<ProtocolDef65 ChineseName="断链重连是否上送COS" Type="8" Size="2" DefVal="0" CommonStat="1"/>
+		<ProtocolDef66 ChineseName="收到主站复归命令处理放式(0:远动重启，1:断链重连)" Type="8" Size="2" DefVal="0" CommonStat="1"/>
+	</ProtocolDefCfg13>
+	<ProtocolDefCfg14 Count="0">
+</ProtocolDefCfg14>
+	<ProtocolDefCfg15 Count="0">
+</ProtocolDefCfg15>
+	<ProtocolDefCfg16 Count="0">
+</ProtocolDefCfg16>
+	<ProtocolDefCfg17 Count="0">
+</ProtocolDefCfg17>
+	<ProtocolDefCfg18 Count="33">
+		<ProtocolDef0 ChineseName="通道名称" Type="11" Size="128" DefVal="" CommonStat="0"/>
+		<ProtocolDef1 ChineseName="服务端IP地址/网卡" Type="11" Size="128" DefVal="" CommonStat="0"/>
+		<ProtocolDef2 ChineseName="主站IP地址1" Type="11" Size="128" DefVal="" CommonStat="0"/>
+		<ProtocolDef3 ChineseName="主站IP地址2" Type="11" Size="128" DefVal="" CommonStat="0"/>
+		<ProtocolDef4 ChineseName="主站IP地址3" Type="11" Size="128" DefVal="" CommonStat="0"/>
+		<ProtocolDef5 ChineseName="主站IP地址4" Type="11" Size="128" DefVal="" CommonStat="0"/>
+		<ProtocolDef6 ChineseName="服务端端口号" Type="8" Size="2" DefVal="2404" CommonStat="0"/>
+		<ProtocolDef7 ChineseName="K值" Type="8" Size="2" DefVal="12" CommonStat="0"/>
+		<ProtocolDef8 ChineseName="W值" Type="8" Size="2" DefVal="8" CommonStat="0"/>
+		<ProtocolDef9 ChineseName="T1" Type="8" Size="2" DefVal="15" CommonStat="0"/>
+		<ProtocolDef10 ChineseName="T2" Type="8" Size="2" DefVal="10" CommonStat="0"/>
+		<ProtocolDef11 ChineseName="T3" Type="8" Size="2" DefVal="20" CommonStat="0"/>
+		<ProtocolDef12 ChineseName="初始化结束报文优先级别" Type="8" Size="2" DefVal="1" CommonStat="0"/>
+		<ProtocolDef13 ChineseName="重链后第一次总召优先级别" Type="8" Size="2" DefVal="2" CommonStat="0"/>
+		<ProtocolDef14 ChineseName="遥控返校优先级别" Type="8" Size="2" DefVal="3" CommonStat="0"/>
+		<ProtocolDef15 ChineseName="变化遥信优先级别" Type="8" Size="2" DefVal="4" CommonStat="0"/>
+		<ProtocolDef16 ChineseName="SOE优先级别" Type="8" Size="2" DefVal="5" CommonStat="0"/>
+		<ProtocolDef17 ChineseName="对时报文优先级别" Type="8" Size="2" DefVal="6" CommonStat="0"/>
+		<ProtocolDef18 ChineseName="组召唤/非第一次总召唤优先级别" Type="8" Size="2" DefVal="7" CommonStat="0"/>
+		<ProtocolDef19 ChineseName="变化遥测优先级别" Type="8" Size="2" DefVal="8" CommonStat="0"/>
+		<ProtocolDef20 ChineseName="遥信起始地址" Type="8" Size="2" DefVal="1" CommonStat="0"/>
+		<ProtocolDef21 ChineseName="遥测起始地址" Type="8" Size="2" DefVal="16385" CommonStat="0"/>
+		<ProtocolDef22 ChineseName="遥控起始地址" Type="8" Size="2" DefVal="24577" CommonStat="0"/>
+		<ProtocolDef23 ChineseName="遥调起始地址" Type="8" Size="2" DefVal="25089" CommonStat="0"/>
+		<ProtocolDef24 ChineseName="遥脉起始地址" Type="8" Size="2" DefVal="25601" CommonStat="0"/>
+		<ProtocolDef25 ChineseName="ASDU公共地址" Type="8" Size="2" DefVal="1" CommonStat="0"/>
+		<ProtocolDef26 ChineseName="信息体地址字节数" Type="8" Size="2" DefVal="3" CommonStat="0"/>
+		<ProtocolDef27 ChineseName="遥信品质变化是否推送" Type="8" Size="2" DefVal="1" CommonStat="0"/>
+		<ProtocolDef28 ChineseName="遥测品质变化是否推送" Type="8" Size="2" DefVal="1" CommonStat="0"/>
+		<ProtocolDef29 ChineseName="是否允许主站对时" Type="8" Size="2" DefVal="0" CommonStat="0"/>
+		<ProtocolDef30 ChineseName="事故总自复归时间" Type="8" Size="2" DefVal="3" CommonStat="0"/>
+		<ProtocolDef31 ChineseName="允许访问文件路径(以'/'结束)" Type="11" Size="128" DefVal="/mnt/DMP6800/bin/File/" CommonStat="0"/>
+		<ProtocolDef32 ChineseName="是否带目录上送文件名" Type="8" Size="2" DefVal="1" CommonStat="0"/>
+	</ProtocolDefCfg18>
+	<ProtocolDefCfg19 Count="8">
+		<ProtocolDef0 ChineseName="CACID" Type="11" Size="128" DefVal="" CommonStat="0"/>
+		<ProtocolDef1 ChineseName="本地IP" Type="11" Size="128" DefVal="192.168.1.9" CommonStat="0" visible="0"/>
+		<ProtocolDef2 ChineseName="主站IP" Type="11" Size="128" DefVal="10.141.2.134" CommonStat="1" visible="1"/>
+		<ProtocolDef3 ChineseName="配置版本号" Type="11" Size="128" DefVal="1.0" CommonStat="1" visible="1"/>
+		<ProtocolDef4 ChineseName="记录保存天数" Type="8" Size="2" DefVal="90" CommonStat="1" visible="1"/>
+		<ProtocolDef5 ChineseName="数据上传周期（单位：秒）" Type="8" Size="2" DefVal="10" CommonStat="1" visible="0"/>
+		<ProtocolDef6 ChineseName="心跳周期（单位：秒）" Type="8" Size="2" DefVal="60" CommonStat="1"/>
+		<ProtocolDef7 ChineseName="主站URL" Type="11" Size="128" DefVal="http://10.141.2.134:7001/TRANSFCAG/" CommonStat="1"/>
+	</ProtocolDefCfg19>
+	<ProtocolDefCfg20 Count="21">
+		<ProtocolDef0 ChineseName="organ" Type="11" Size="128" DefVal="00000" CommonStat="0"/>
+		<ProtocolDef1 ChineseName="gataway" Type="11" Size="128" DefVal="000000" CommonStat="0"/>
+		<ProtocolDef2 ChineseName="base64编码（0,1）" Type="8" Size="2" DefVal="1" CommonStat="0"/>
+		<ProtocolDef3 ChineseName="用户名" Type="11" Size="128" DefVal="testuser" CommonStat="0"/>
+		<ProtocolDef4 ChineseName="密码" Type="11" Size="128" DefVal="testpassword" CommonStat="0"/>
+		<ProtocolDef5 ChineseName="服务器IP" Type="11" Size="128" DefVal="218.90.121.192" CommonStat="0"/>
+		<ProtocolDef6 ChineseName="端口" Type="8" Size="2" DefVal="1883" CommonStat="0"/>
+		<ProtocolDef7 ChineseName="客户端ID" Type="11" Size="128" DefVal="faadfadfsdfa" CommonStat="0"/>
+		<ProtocolDef8 ChineseName="设备模型主题" Type="11" Size="128" DefVal="/v1/topic/" CommonStat="0"/>
+		<ProtocolDef9 ChineseName="遥控主题" Type="11" Size="128" DefVal="/v1/topic/" CommonStat="0"/>
+		<ProtocolDef10 ChineseName="删除设备主题" Type="11" Size="128" DefVal="/v1/topic/" CommonStat="0"/>
+		<ProtocolDef11 ChineseName="发布主题" Type="11" Size="128" DefVal="/v1/topic/" CommonStat="0"/>
+		<ProtocolDef12 ChineseName="遥控返校发布主题" Type="11" Size="128" DefVal="/v1/topic/" CommonStat="0"/>
+		<ProtocolDef13 ChineseName="模型和app返校发布主题" Type="11" Size="128" DefVal="/v1/topic/" CommonStat="0"/>
+		<ProtocolDef14 ChineseName="删除设备返校发布主题" Type="11" Size="128" DefVal="/v1/topic/" CommonStat="0"/>
+		<ProtocolDef15 ChineseName="更新主题" Type="11" Size="128" DefVal="/v1/topic/" CommonStat="0"/>
+		<ProtocolDef16 ChineseName="更新返校发布主题" Type="11" Size="128" DefVal="/v1/topic/" CommonStat="0"/>
+		<ProtocolDef17 ChineseName="重启主题" Type="11" Size="128" DefVal="/v1/topic/" CommonStat="0"/>
+		<ProtocolDef18 ChineseName="重启返校" Type="11" Size="128" DefVal="/v1/topic/" CommonStat="0"/>
+		<ProtocolDef19 ChineseName="心跳时间" Type="8" Size="2" DefVal="20" CommonStat="0"/>
+		<ProtocolDef20 ChineseName="总召间隔" Type="9" Size="4" DefVal="60" CommonStat="0"/>
+	</ProtocolDefCfg20>
+	<ProtocolDefCfg21 Count="35">
+		<ProtocolDef0 ChineseName="网口个数" Type="11" Size="128" DefVal="4" CommonStat="0"/>
+		<ProtocolDef1 ChineseName="转发表个数" Type="11" Size="128" DefVal="2" CommonStat="0"/>
+		<ProtocolDef2 ChineseName="网口1_IP" Type="11" Size="128" DefVal="192.168.0.19" CommonStat="0"/>
+		<ProtocolDef3 ChineseName="网口1_子网掩码" Type="11" Size="128" DefVal="255.255.255.0" CommonStat="0"/>
+		<ProtocolDef4 ChineseName="网口1_网关" Type="11" Size="128" DefVal="192.168.0.1" CommonStat="0"/>
+		<ProtocolDef5 ChineseName="网口1_Mac" Type="11" Size="128" DefVal="E0:AA:DB:06:01:52" CommonStat="0"/>
+		<ProtocolDef6 ChineseName="网口2_IP" Type="11" Size="128" DefVal="192.168.1.19" CommonStat="0"/>
+		<ProtocolDef7 ChineseName="网口2_子网掩码" Type="11" Size="128" DefVal="255.255.255.0" CommonStat="0"/>
+		<ProtocolDef8 ChineseName="网口2_网关" Type="11" Size="128" DefVal="192.168.0.1" CommonStat="0"/>
+		<ProtocolDef9 ChineseName="网口2_Mac" Type="11" Size="128" DefVal="E0:AA:DB:06:01:52" CommonStat="0"/>
+		<ProtocolDef10 ChineseName="网口3_IP" Type="11" Size="128" DefVal="192.168.3.19" CommonStat="0"/>
+		<ProtocolDef11 ChineseName="网口3_子网掩码" Type="11" Size="128" DefVal="255.255.255.0" CommonStat="0"/>
+		<ProtocolDef12 ChineseName="网口3_网关" Type="11" Size="128" DefVal="192.168.0.1" CommonStat="0"/>
+		<ProtocolDef13 ChineseName="网口3_Mac" Type="11" Size="128" DefVal="E0:AA:DB:06:01:52" CommonStat="0"/>
+		<ProtocolDef14 ChineseName="网口4_IP" Type="11" Size="128" DefVal="192.168.4.19" CommonStat="0"/>
+		<ProtocolDef15 ChineseName="网口4_子网掩码" Type="11" Size="128" DefVal="255.255.255.0" CommonStat="0"/>
+		<ProtocolDef16 ChineseName="网口4_网关" Type="11" Size="128" DefVal="192.168.0.1" CommonStat="0"/>
+		<ProtocolDef17 ChineseName="网口4_Mac" Type="11" Size="128" DefVal="E0:AA:DB:06:01:52" CommonStat="0"/>
+		<ProtocolDef18 ChineseName="转发规约数目" Type="11" Size="2" DefVal="8" CommonStat="0"/>
+		<ProtocolDef19 ChineseName="规约类型" Type="11" Size="128" DefVal="1" CommonStat="0"/>
+		<ProtocolDef20 ChineseName="绑定网口号" Type="11" Size="128" DefVal="Ethernet_Port1" CommonStat="0"/>
+		<ProtocolDef21 ChineseName="规约使能" Type="11" Size="128" DefVal="1" CommonStat="0"/>
+		<ProtocolDef22 ChineseName="使用的转发表号" Type="11" Size="128" DefVal="1" CommonStat="0"/>
+		<ProtocolDef23 ChineseName="软加密使能标志" Type="11" Size="128" DefVal="0" CommonStat="0"/>
+		<ProtocolDef24 ChineseName="公共地址长度" Type="11" Size="128" DefVal="2" CommonStat="0"/>
+		<ProtocolDef25 ChineseName="原因长度" Type="11" Size="128" DefVal="2" CommonStat="0"/>
+		<ProtocolDef26 ChineseName="信息体地址长度" Type="11" Size="128" DefVal="3" CommonStat="0"/>
+		<ProtocolDef27 ChineseName="单点遥信起始点号" Type="11" Size="128" DefVal="1" CommonStat="0"/>
+		<ProtocolDef28 ChineseName="双点遥信起始点号" Type="11" Size="128" DefVal="1" CommonStat="0"/>
+		<ProtocolDef29 ChineseName="遥测起始点号" Type="11" Size="128" DefVal="16385" CommonStat="0"/>
+		<ProtocolDef30 ChineseName="遥控起始点号" Type="11" Size="128" DefVal="24577" CommonStat="0"/>
+		<ProtocolDef31 ChineseName="遥脉起始点号" Type="11" Size="128" DefVal="25601" CommonStat="0"/>
+		<ProtocolDef32 ChineseName="遥测类型" Type="11" Size="128" DefVal="13" CommonStat="0"/>
+		<ProtocolDef33 ChineseName="公共地址" Type="11" Size="128" DefVal="1" CommonStat="0"/>
+		<ProtocolDef34 ChineseName="故障报告地址长度" Type="11" Size="128" DefVal="2" CommonStat="0"/>
+		<ProtocolDef35 ChineseName="硬加密使能：1-打开；0=关闭" Type="11" Size="128" DefVal="0" CommonStat="0"/>
+		<ProtocolDef36 ChineseName="是否经过网关" Type="11" Size="128" DefVal="0" CommonStat="0"/>
+		<ProtocolDef37 ChineseName="主加密规约（仅网口）" Type="11" Size="128" DefVal="2" CommonStat="0"/>
+		<ProtocolDef38 ChineseName="从加密规约（串口及网口）" Type="11" Size="128" DefVal="2" CommonStat="0"/>
+	</ProtocolDefCfg21>
+	<ProtocolDefCfg22 Count="63">
+		<ProtocolDef0 ChineseName="串口数目" Type="11" Size="128" DefVal="8" CommonStat="0"/>
+		<ProtocolDef1 ChineseName="转发规约次数" Type="11" Size="128" DefVal="4" CommonStat="0"/>
+		<ProtocolDef2 ChineseName="串口1_波特率" Type="11" Size="128" DefVal="9600" CommonStat="0"/>
+		<ProtocolDef3 ChineseName="串口1_数据位" Type="11" Size="128" DefVal="8" CommonStat="0"/>
+		<ProtocolDef4 ChineseName="串口1_校验位" Type="8" Size="2" DefVal="N" CommonStat="0"/>
+		<ProtocolDef5 ChineseName="串口1_停止位" Type="11" Size="128" DefVal="1" CommonStat="0"/>
+		<ProtocolDef6 ChineseName="串口2_波特率" Type="11" Size="128" DefVal="9600" CommonStat="0"/>
+		<ProtocolDef7 ChineseName="串口2_数据位" Type="11" Size="128" DefVal="8" CommonStat="0"/>
+		<ProtocolDef8 ChineseName="串口2_校验位" Type="8" Size="2" DefVal="N" CommonStat="0"/>
+		<ProtocolDef9 ChineseName="串口2_停止位" Type="11" Size="128" DefVal="1" CommonStat="0"/>
+		<ProtocolDef10 ChineseName="串口3_波特率" Type="11" Size="128" DefVal="9600" CommonStat="0"/>
+		<ProtocolDef11 ChineseName="串口3_数据位" Type="11" Size="128" DefVal="8" CommonStat="0"/>
+		<ProtocolDef12 ChineseName="串口3_校验位" Type="8" Size="2" DefVal="N" CommonStat="0"/>
+		<ProtocolDef13 ChineseName="串口3_停止位" Type="11" Size="128" DefVal="1" CommonStat="0"/>
+		<ProtocolDef14 ChineseName="串口4_波特率" Type="11" Size="128" DefVal="9600" CommonStat="0"/>
+		<ProtocolDef15 ChineseName="串口4_数据位" Type="11" Size="128" DefVal="8" CommonStat="0"/>
+		<ProtocolDef16 ChineseName="串口4_校验位" Type="8" Size="2" DefVal="N" CommonStat="0"/>
+		<ProtocolDef17 ChineseName="串口4_停止位" Type="11" Size="128" DefVal="1" CommonStat="0"/>
+		<ProtocolDef18 ChineseName="串口5_波特率" Type="11" Size="128" DefVal="9600" CommonStat="0"/>
+		<ProtocolDef19 ChineseName="串口5_数据位" Type="11" Size="128" DefVal="8" CommonStat="0"/>
+		<ProtocolDef20 ChineseName="串口5_校验位" Type="8" Size="2" DefVal="N" CommonStat="0"/>
+		<ProtocolDef21 ChineseName="串口5_停止位" Type="11" Size="128" DefVal="1" CommonStat="0"/>
+		<ProtocolDef22 ChineseName="串口6_波特率" Type="11" Size="128" DefVal="9600" CommonStat="0"/>
+		<ProtocolDef23 ChineseName="串口6_数据位" Type="11" Size="128" DefVal="8" CommonStat="0"/>
+		<ProtocolDef24 ChineseName="串口6_校验位" Type="8" Size="2" DefVal="N" CommonStat="0"/>
+		<ProtocolDef25 ChineseName="串口6_停止位" Type="11" Size="128" DefVal="1" CommonStat="0"/>
+		<ProtocolDef26 ChineseName="串口7_波特率" Type="11" Size="128" DefVal="9600" CommonStat="0"/>
+		<ProtocolDef27 ChineseName="串口7_数据位" Type="11" Size="128" DefVal="8" CommonStat="0"/>
+		<ProtocolDef28 ChineseName="串口7_校验位" Type="8" Size="2" DefVal="N" CommonStat="0"/>
+		<ProtocolDef29 ChineseName="串口7_停止位" Type="11" Size="128" DefVal="1" CommonStat="0"/>
+		<ProtocolDef30 ChineseName="串口8_波特率" Type="11" Size="128" DefVal="9600" CommonStat="0"/>
+		<ProtocolDef31 ChineseName="串口8_数据位" Type="11" Size="128" DefVal="8" CommonStat="0"/>
+		<ProtocolDef32 ChineseName="串口8_校验位" Type="8" Size="2" DefVal="N" CommonStat="0"/>
+		<ProtocolDef33 ChineseName="串口8_停止位" Type="11" Size="128" DefVal="1" CommonStat="0"/>
+		<ProtocolDef34 ChineseName="规约类型" Type="8" Size="2" DefVal="1" CommonStat="0"/>
+		<ProtocolDef35 ChineseName="规约使能标志" Type="11" Size="128" DefVal="1" CommonStat="0"/>
+		<ProtocolDef36 ChineseName="绑定的串口号" Type="11" Size="128" DefVal="Serial_Port1" CommonStat="0"/>
+		<ProtocolDef37 ChineseName="网络化使能标志" Type="11" Size="128" DefVal="0" CommonStat="0"/>
+		<ProtocolDef38 ChineseName="远方服务端ip" Type="11" Size="128" DefVal="192.168.1.101" CommonStat="0"/>
+		<ProtocolDef39 ChineseName="远方服务端端口号" Type="11" Size="128" DefVal="2404" CommonStat="0"/>
+		<ProtocolDef40 ChineseName="使用的转发表号" Type="11" Size="128" DefVal="0" CommonStat="0"/>
+		<ProtocolDef41 ChineseName="软加密使能标志：1-打开；0=关闭" Type="11" Size="128" DefVal="0" CommonStat="0"/>
+		<ProtocolDef42 ChineseName="平衡101配置：1-平衡101；0-非平衡101" Type="11" Size="128" DefVal="1" CommonStat="0"/>
+		<ProtocolDef43 ChineseName="传输方向位：0-主站；1-终端" Type="11" Size="128" DefVal="1" CommonStat="0"/>
+		<ProtocolDef44 ChineseName="从站初始化等待时间" Type="11" Size="128" DefVal="150000" CommonStat="0"/>
+		<ProtocolDef45 ChineseName="链路地址" Type="11" Size="128" DefVal="1" CommonStat="0"/>
+		<ProtocolDef46 ChineseName="链路地址长度" Type="11" Size="128" DefVal="2" CommonStat="0"/>
+		<ProtocolDef47 ChineseName="公共地址" Type="8" Size="2" DefVal="1" CommonStat="0"/>
+		<ProtocolDef48 ChineseName="公共地址长度" Type="9" Size="4" DefVal="2" CommonStat="0"/>
+		<ProtocolDef49 ChineseName="原因长度" Type="9" Size="4" DefVal="2" CommonStat="0"/>
+		<ProtocolDef50 ChineseName="信息体地址长度" Type="9" Size="4" DefVal="3" CommonStat="0"/>
+		<ProtocolDef51 ChineseName="单点遥信起始点号" Type="9" Size="4" DefVal="1" CommonStat="0"/>
+		<ProtocolDef52 ChineseName="双点遥信起始点号" Type="9" Size="4" DefVal="1" CommonStat="0"/>
+		<ProtocolDef53 ChineseName="遥测起始点号" Type="9" Size="4" DefVal="16385" CommonStat="0"/>
+		<ProtocolDef54 ChineseName="遥控起始点号" Type="9" Size="4" DefVal="24577" CommonStat="0"/>
+		<ProtocolDef55 ChineseName="遥脉起始点号" Type="9" Size="4" DefVal="25601" CommonStat="0"/>
+		<ProtocolDef56 ChineseName="遥测类型" Type="9" Size="4" DefVal="13" CommonStat="0"/>
+		<ProtocolDef57 ChineseName="公共地址" Type="9" Size="4" DefVal="1" CommonStat="0"/>
+		<ProtocolDef58 ChineseName="故障报告地址长度" Type="9" Size="4" DefVal="2" CommonStat="0"/>
+		<ProtocolDef59 ChineseName="硬加密使能：1-打开；0=关闭" Type="11" Size="128" DefVal="0" CommonStat="0"/>
+		<ProtocolDef60 ChineseName="是否经过网关" Type="11" Size="128" DefVal="0" CommonStat="0"/>
+		<ProtocolDef61 ChineseName="主加密规约（仅网口）" Type="11" Size="128" DefVal="2" CommonStat="0"/>
+		<ProtocolDef62 ChineseName="从加密规约（串口及网口）" Type="11" Size="128" DefVal="2" CommonStat="0"/>
+	</ProtocolDefCfg22>
+	<ProtocolDefCfg23 Count="10">
+		<ProtocolDef0 ChineseName="组织结构编码" Type="11" Size="128" DefVal="0000" CommonStat="0"/>
+		<ProtocolDef1 ChineseName="场站号" Type="11" Size="128" DefVal="00000" CommonStat="0"/>
+		<ProtocolDef2 ChineseName="服务代理IP" Type="11" Size="128" DefVal="119.3.88.81" CommonStat="0"/>
+		<ProtocolDef3 ChineseName="代理服务端口" Type="8" Size="2" DefVal="1883" CommonStat="0"/>
+		<ProtocolDef4 ChineseName="心跳" Type="8" Size="2" DefVal="90" CommonStat="0"/>
+		<ProtocolDef5 ChineseName="上送数据周期（分钟）" Type="8" Size="2" DefVal="5" CommonStat="0"/>
+		<ProtocolDef6 ChineseName="是否进行流量统计（0,1）" Type="8" Size="2" DefVal="1" CommonStat="0"/>
+		<ProtocolDef7 ChineseName="流量统计网口名称" Type="11" Size="128" DefVal="eth0" CommonStat="0"/>
+		<ProtocolDef8 ChineseName="备用服务代理IP" Type="11" Size="128" DefVal="119.3.88.81" CommonStat="0"/>
+		<ProtocolDef9 ChineseName="备用代理服务端口" Type="8" Size="2" DefVal="1883" CommonStat="0"/>
+	</ProtocolDefCfg23>
+	<ProtocolDefCfg24 Count="2">
+		<ProtocolDef0 ChineseName="从站地址" Type="8" Size="2" DefVal="1" CommonStat="0"/>
+		<ProtocolDef1 ChineseName="客户机IP地址列表" Type="11" Size="128" DefVal="0" CommonStat="0"/>
+	</ProtocolDefCfg24>
+</ProtocolDefCfg>

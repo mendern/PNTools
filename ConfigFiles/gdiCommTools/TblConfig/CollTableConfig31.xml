@@ -1,0 +1,277 @@
+<?xml version="1.0" encoding="GB2312"?>
+<!-- edited with XMLSpy v2013 (http://www.altova.com) by  () -->
+<tables>
+	<table title="全部" name="0">
+		<th title="名称" name="name" readonly="0" defaultvalue="" type="charint">
+			<values>
+            </values>
+		</th>
+		<th title="描述" name="desc" readonly="0" defaultvalue="" type="">
+			<values>
+            </values>
+		</th>
+		<th title="类型" name="" readonly="0" defaultvalue="" type="">
+			<values>
+				<value name="遥测" value="0"/>
+				<value name="遥信" value="1"/>
+				<value name="遥脉" value="2"/>
+				<value name="遥控" value="3"/>
+				<value name="遥设" value="4"/>
+				<value name="定值" value="5"/>
+			</values>
+		</th>
+		<th title="数据类型" name="fun_no" readonly="0" defaultvalue="2" type="" filters="遥测,遥脉">
+			<values>
+				<value name="单字节型" value="0"/>
+				<value name="有符号短整形" value="1"/>
+				<value name="无符号短整形" value="2"/>
+				<value name="有符号整形(高前低后)" value="3"/>
+				<value name="有符号整形(低前高后)" value="4"/>
+				<value name="无符号整形(高前低后)" value="5"/>
+				<value name="无符号整形(低前高后)" value="6"/>
+				<value name="浮点型(高前低后)" value="7"/>
+				<value name="浮点型(低前高后)" value="8"/>
+				<value name="定点数" value="9"/>
+			</values>
+		</th>
+		<!--th title="数值类型" name="value_type" readonly="1" defaultvalue="" type="">
+			<values>                
+				<value name="整型" value="0"/>
+				<value name="浮点型" value="1"/>
+				<value name="字符型" value="2"/>
+				<value name="短整型" value="3"/>             
+            </values>
+		</th-->
+		<th title="占用寄存器个数" name="ied_dot" readonly="0" defaultvalue="1" type="">
+			<values>
+            </values>
+		</th>
+		<th title="数据字节个数" name="entry_no" readonly="0" defaultvalue="2" type="">
+			<values>
+            </values>
+		</th>
+		<th title="对象地址" name="group_no" readonly="0" defaultvalue="0" type="">
+			<values>
+            </values>
+		</th>
+		<th title="点位权限" name="bitPri" readonly="0" defaultvalue="0" type="">
+			<values>
+				<value name="只读" value="0"/>
+				<value name="读写" value="1"/>
+				<value name="只写" value="2"/>
+			</values>
+		</th>
+		<th title="采集取反" name="bReverseVal" readonly="0" defaultvalue="0" type=""  filters="遥信">
+			<values>
+				<value name="否" value="0"/>
+				<value name="是" value="1"/>
+			</values>
+		</th>
+		<th title="系数" name="" readonly="1" defaultvalue="0" type="" filters="遥测,遥脉">
+			<values>			     				
+            </values>
+		</th>
+		<th title="位号" name="entry_no" readonly="0" defaultvalue="0" type="" filters="遥信">
+			<values>
+            </values>
+		</th>
+	</table>
+	<table title="遥测" name="1">
+		<th title="ID" name="id" readonly="1" defaultvalue="" type="int">
+			<values>
+            </values>
+		</th>
+		<th title="名称" name="name" readonly="0" defaultvalue="" type="charint">
+			<values>
+            </values>
+		</th>
+		<th title="描述" name="desc" readonly="0" defaultvalue="" type="">
+			<values>
+            </values>
+		</th>
+		<th title="占用寄存器个数" name="ied_dot" readonly="0" defaultvalue="1" type="">
+			<values>
+            </values>
+		</th>
+		<th title="对象地址" name="group_no" readonly="0" defaultvalue="0" type="">
+			<values>
+            </values>
+		</th>
+		<th title="数据字节个数" name="entry_no" readonly="0" defaultvalue="2" type="">
+			<values>
+            </values>
+		</th>
+		<th title="数据类型" name="fun_no" readonly="0" defaultvalue="2" type="">
+			<values>
+				<value name="单字节型" value="0"/>
+				<value name="有符号短整形" value="1"/>
+				<value name="无符号短整形" value="2"/>
+				<value name="有符号整形(高前低后)" value="3"/>
+				<value name="有符号整形(低前高后)" value="4"/>
+				<value name="无符号整形(高前低后)" value="5"/>
+				<value name="无符号整形(低前高后)" value="6"/>
+				<value name="浮点型(高前低后)" value="7"/>
+				<value name="浮点型(低前高后)" value="8"/>
+				<value name="定点数" value="9"/>
+			</values>
+		</th>
+		<th title="系数" name="" readonly="1" defaultvalue="0" type="">
+			<values>			     				
+            </values>
+		</th>
+	</table>
+	<table title="遥信" name="2">
+		<th title="ID" name="id" readonly="1" defaultvalue="" type="int">
+			<values>
+            </values>
+		</th>
+		<th title="名称" name="name" readonly="0" defaultvalue="" type="charint">
+			<values>
+            </values>
+		</th>
+		<th title="描述" name="desc" readonly="0" defaultvalue="" type="">
+			<values>
+            </values>
+		</th>
+		<th title="对象地址" name="group_no" readonly="0" defaultvalue="0" type="">
+			<values>
+            </values>
+		</th>
+		<th title="位号" name="entry_no" readonly="0" defaultvalue="0" type="">
+			<values>
+            </values>
+		</th>
+		<th title="采集取反" name="bReverseVal" readonly="0" defaultvalue="0" type="">
+			<values>
+				<value name="否" value="0"/>
+				<value name="是" value="1"/>
+			</values>
+		</th>
+	</table>
+	<table title="遥脉" name="3">
+		<th title="ID" name="id" readonly="1" defaultvalue="" type="int">
+			<values>
+            </values>
+		</th>
+		<th title="名称" name="name" readonly="0" defaultvalue="" type="charint">
+			<values>
+            </values>
+		</th>
+		<th title="描述" name="desc" readonly="0" defaultvalue="" type="">
+			<values>
+            </values>
+		</th>
+		<th title="占用寄存器个数" name="ied_dot" readonly="0" defaultvalue="2" type="">
+			<values>
+            </values>
+		</th>
+		<th title="对象地址" name="group_no" readonly="0" defaultvalue="0" type="">
+			<values>
+            </values>
+		</th>
+		<th title="数据字节个数" name="entry_no" readonly="0" defaultvalue="4" type="">
+			<values>
+            </values>
+		</th>
+		<th title="数据类型" name="fun_no" readonly="0" defaultvalue="5" type="">
+			<values>
+				<value name="单字节型" value="0"/>
+				<value name="有符号短整形" value="1"/>
+				<value name="无符号短整形" value="2"/>
+				<value name="有符号整形(高前低后)" value="3"/>
+				<value name="有符号整形(低前高后)" value="4"/>
+				<value name="无符号整形(高前低后)" value="5"/>
+				<value name="无符号整形(低前高后)" value="6"/>
+				<value name="浮点型(高前低后)" value="7"/>
+				<value name="浮点型(低前高后)" value="8"/>
+				<value name="定点数" value="9"/>
+			</values>
+		</th>
+	</table>
+	<table title="遥控" name="4">
+		<th title="ID" name="id" readonly="1" defaultvalue="" type="int">
+			<values>
+            </values>
+		</th>
+		<th title="名称" name="name" readonly="0" defaultvalue="" type="charint">
+			<values>
+            </values>
+		</th>
+		<th title="描述" name="desc" readonly="0" defaultvalue="" type="">
+			<values>
+            </values>
+		</th>
+		<th title="对象地址" name="ied_dot" readonly="0" defaultvalue="0" type="">
+			<values>
+            </values>
+		</th>
+		<th title="遥控类型" name="type" readonly="0" defaultvalue="1" type="">
+			<values>
+				<value name="开关遥控" value="1"/>
+				<value name="装置遥控复归" value="2"/>
+				<value name="全站总复归" value="3"/>
+				<value name="遥调操作" value="4"/>
+				<value name="直接遥控" value="5"/>
+				<value name="自身遥控" value="6"/>
+				<value name="变压器急停(61850-stop)" value="7"/>
+				<value name="变压器调档(61850-ON/OFF)" value="8"/>
+				<value name="设点1(61850-ISC)" value="9"/>
+				<value name="设点2(61850-APC)" value="10"/>
+				<value name="直控设点1(61850-ISC)" value="11"/>
+				<value name="直控设点2(61850-APC)" value="12"/>
+				<value name="全站事故总复归" value="13"/>
+				<value name="全站预告总复归" value="14"/>
+				<value name="未知类型" value="153"/>
+			</values>
+		</th>
+	</table>
+	<table title="遥设" name="5">
+		<th title="ID" name="id" readonly="1" defaultvalue="" type="int">
+			<values>
+            </values>
+		</th>
+		<th title="名称" name="name" readonly="0" defaultvalue="" type="charint">
+			<values>
+            </values>
+		</th>
+		<th title="描述" name="desc" readonly="0" defaultvalue="" type="">
+			<values>
+            </values>
+		</th>
+		<th title="对象地址" name="ied_dot" readonly="0" defaultvalue="0" type="">
+			<values>
+            </values>
+		</th>
+		<th title="遥设类型" name="type" readonly="0" defaultvalue="7" type="">
+			<values>
+				<value name="设点1(61850-ISC)" value="1"/>
+				<value name="设点2(61850-APC)" value="2"/>
+				<value name="直控设点1(61850-ISC)" value="3"/>
+				<value name="直控设点2(61850-APC)" value="4"/>
+				<value name="定值区号" value="5"/>
+				<value name="选择遥设" value="6"/>
+				<value name="直接遥设" value="7"/>
+				<value name="增量遥设" value="8"/>
+				<value name="未知类型" value="153"/>
+			</values>
+		</th>
+	</table>
+	<table title="定值" name="6">
+		<th title="ID" name="id" readonly="1" defaultvalue="" type="int">
+			<values>
+            </values>
+		</th>
+		<th title="名称" name="name" readonly="0" defaultvalue="" type="charint">
+			<values>
+            </values>
+		</th>
+		<th title="描述" name="desc" readonly="0" defaultvalue="" type="">
+			<values>
+            </values>
+		</th>
+		<th title="对象地址" name="ied_dot" readonly="0" defaultvalue="" type="">
+			<values>
+            </values>
+		</th>
+	</table>
+</tables>

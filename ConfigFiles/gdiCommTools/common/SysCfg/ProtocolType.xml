@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="GB2312"?>
+<!-- edited with XMLSpy v2013 (http://www.altova.com) by  () -->
+<ProtocolInfoCfg>
+	<CollectProtocolCfgDesc Count="32">
+		<CollProtocol0 Id="0" LoadType="0" DescName="PN_CAN" ClassName="TPN_CAN" Group="厂家定制"/>
+		<CollProtocol1 Id="1" LoadType="0" DescName="PN_CAN485" ClassName="TPN_CAN485" Group="厂家定制"/>
+		<CollProtocol2 Id="2" LoadType="0" DescName="PN_NET" ClassName="TPN_NET" Group="厂家定制"/>
+		<CollProtocol3 Id="3" LoadType="0" DescName="GPS(黑启动)" ClassName="TGps" Group="对时"/>
+		<CollProtocol4 Id="4" LoadType="0" DescName="DL645电表" ClassName="TDL645" Group="仪器仪表"/>
+		<CollProtocol5 Id="5" LoadType="0" DescName="CDT接收" ClassName="TCdtCell" Group="行业标准"/>
+		<CollProtocol6 Id="6" LoadType="0" DescName="ModbusRTU" ClassName="ModbusRTU" Group="行业标准"/>
+		<CollProtocol7 Id="7" LoadType="0" DescName="DMP200" ClassName="TDMP200" Group="厂家定制"/>
+		<CollProtocol8 Id="8" LoadType="0" DescName="英可瑞(瑞特直流屏)" ClassName="" Group="厂家定制"/>
+		<CollProtocol9 Id="9" LoadType="0" DescName="斯达直流屏" ClassName="" Group="厂家定制"/>
+		<CollProtocol10 Id="10" LoadType="0" DescName="博为ML196小电流" ClassName="" Group="厂家定制"/>
+		<CollProtocol11 Id="11" LoadType="0" DescName="博为ML196H小电流" ClassName="" Group="厂家定制"/>
+		<CollProtocol12 Id="12" LoadType="0" DescName="南自103" ClassName="TNZ103" Group="厂家定制"/>
+		<CollProtocol13 Id="13" LoadType="0" DescName="DMP5000_103" ClassName="TDMP5000_103" Group="厂家定制"/>
+		<CollProtocol14 Id="14" LoadType="0" DescName="IEC60870_5_104" ClassName="IEC104C" Group="行业标准"/>
+		<CollProtocol15 Id="15" LoadType="0" DescName="IEC60870_5_103" ClassName="IEC103" Group="行业标准"/>
+		<CollProtocol16 Id="16" LoadType="0" DescName="磐能网络IEC103NET" ClassName="IEC103NET" Group="厂家定制"/>
+		<CollProtocol17 Id="17" LoadType="0" DescName="南瑞103" ClassName="TNR103" Group="厂家定制"/>
+		<CollProtocol18 Id="18" LoadType="0" DescName="IEC61850" ClassName="mmsClientEx" Group="行业标准"/>
+		<CollProtocol19 Id="19" LoadType="0" DescName="远方就地规约" ClassName="RemoteLocal" Group="远方就地"/>
+		<CollProtocol20 Id="20" LoadType="0" DescName="2007版645电表" ClassName="TDL07645" Group="仪器仪表"/>
+		<CollProtocol21 Id="21" LoadType="0" DescName="事故总预告总" ClassName="TSetYGZ" Group="事故预告"/>
+		<CollProtocol22 Id="22" LoadType="0" DescName="IEC60870_5_101" ClassName="IEC101collect" Group="行业标准"/>
+		<CollProtocol23 Id="23" LoadType="0" DescName="金智网络103" ClassName="JZ103Net" Group="厂家定制"/>
+		<CollProtocol24 Id="24" LoadType="0" DescName="IEC104采集多装置" ClassName="TIEC104CMULTI" Group="行业标准"/>
+		<CollProtocol25 Id="25" LoadType="0" DescName="NTP对时" ClassName="TSetTime" Group="对时"/>
+		<CollProtocol26 Id="26" LoadType="0" DescName="DISA采集" ClassName="TDLPPdisaCollect" Group="行业标准"/>
+		<CollProtocol27 Id="27" LoadType="0" DescName="ModbusTcp" ClassName="ModbusTcp" Group="行业标准"/>
+		<CollProtocol28 Id="28" LoadType="0" DescName="ModbusPLC" ClassName="" Group="行业标准"/>
+		<CollProtocol29 Id="29" LoadType="0" DescName="山东电网钥匙箱" ClassName="KeyBoxDev" Group="行业标准"/>
+		<CollProtocol30 Id="30" LoadType="0" DescName="MCU采集" ClassName="" Group="厂家定制"/>
+		<CollProtocol31 Id="31" LoadType="0" DescName="Modbus钥匙箱出口采集" ClassName="ModbusKeyBox" Group="行业标准"/>
+	</CollectProtocolCfgDesc>
+	<TransProtocolCfgDesc Count="25">
+		<TransProtocol0 Id="0" LoadType="0" DescName="CDT" ClassName="TCDT" Group="行业标准"/>
+		<TransProtocol1 Id="1" LoadType="0" DescName="IEC60870_5_101" ClassName="TIEC101" Group="行业标准"/>
+		<TransProtocol2 Id="2" LoadType="0" DescName="IEC60870_5_104" ClassName="TIEC104" Group="行业标准"/>
+		<TransProtocol3 Id="3" LoadType="0" DescName="磐能后台" ClassName="TPnSe" Group="厂家定制"/>
+		<TransProtocol4 Id="4" LoadType="0" DescName="DISA" ClassName="TDISA" Group="行业标准"/>
+		<TransProtocol5 Id="5" LoadType="0" DescName="9702" ClassName="DLP9702" Group="厂家定制"/>
+		<TransProtocol6 Id="6" LoadType="0" DescName="103转发(485)" ClassName="" Group="行业标准"/>
+		<TransProtocol7 Id="7" LoadType="0" DescName="103转发(NET)" ClassName="" Group="行业标准"/>
+		<TransProtocol8 Id="8" LoadType="0" DescName="IEC61850(Server)" ClassName="" Group="行业标准"/>
+		<TransProtocol9 Id="9" LoadType="0" DescName="IEC101（南网）" ClassName="" Group="南网标准"/>
+		<TransProtocol10 Id="10" LoadType="0" DescName="IEC104（南网）" ClassName="" Group="南网标准"/>
+		<TransProtocol11 Id="11" LoadType="0" DescName="IEC104（多客户端）" ClassName="" Group="行业标准"/>
+		<TransProtocol12 Id="12" LoadType="0" DescName="IEC104(光伏遥设)" ClassName="" Group="行业标准"/>
+		<TransProtocol13 Id="13" LoadType="0" DescName="IEC104(浙江)" ClassName="" Group="厂家定制"/>
+		<TransProtocol14 Id="14" LoadType="0" DescName="IEC61850ServerLC" ClassName="" Group="厂家定制"/>
+		<TransProtocol15 Id="15" LoadType="0" DescName="MQTT转磐能物联平台" ClassName="MQTTApp" Group="MQTT物联"/>
+		<TransProtocol16 Id="16" LoadType="0" DescName="远程运维" ClassName="remoteMgr" Group="运维"/>
+		<TransProtocol17 Id="17" LoadType="0" DescName="定时控制" ClassName="TimeControl" Group="厂家定制"/>
+		<TransProtocol18 Id="18" LoadType="0" DescName="104扩展" ClassName="FK104" Group="行业标准"/>
+		<TransProtocol19 Id="19" LoadType="0" DescName="国网I2" ClassName="i2Trans" Group="行业标准"/>
+		<TransProtocol20 Id="20" LoadType="0" DescName="MQTT智慧物联平台" ClassName="DeviceIOT" Group="MQTT物联"/>
+		<TransProtocol21 Id="21" LoadType="0" DescName="磐能配网104" ClassName="DTU_104" Group="厂家定制"/>
+		<TransProtocol22 Id="22" LoadType="0" DescName="磐能配网101" ClassName="DTU_101" Group="厂家定制"/>
+		<TransProtocol23 Id="23" LoadType="0" DescName="RemoteIOT" ClassName="RemoteIOT" Group="运维"/>
+		<TransProtocol24 Id="24" LoadType="0" DescName="ModbusTcpTrans转发" ClassName="ModbusTcpTrans" Group="行业标准"/>
+	</TransProtocolCfgDesc>
+</ProtocolInfoCfg>

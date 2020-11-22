@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="GB2312" ?><LinkageConfig><Condition count="1"><Condition0 id="1" name="条件1" formula="#YC:1+0+1#>100" trigger_status="1" hold_time="5000"/>
+</Condition><LinkageCtrl count="1"><LinkageCtrl0 count="1" condition_id="0" name="联动配置0"><Ctrl0 pcl_id="0" ied_id="0" ied_dot_id="0" ctrl_type="0" ctrl_status="0" ctrl_value="0.000000" association_pcl_id="0" association_ied_id="0" association_ied_dot_id="0"/>
+</LinkageCtrl0></LinkageCtrl></LinkageConfig>

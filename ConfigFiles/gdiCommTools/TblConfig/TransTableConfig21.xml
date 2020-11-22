@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="GB2312" ?>
+<tables>
+    <table title="全部" name="0">
+        <th title="名称" name="Info.name" readonly="0" defaultvalue="" type="charint">
+            <values>
+            </values>
+        </th>
+		<th title="描述" name="Info.desc" readonly="0" defaultvalue="" type="">
+            <values>
+            </values>
+        </th>
+		<th title="类型" name="" readonly="1" defaultvalue="" type="">
+            <values>
+                <value name="遥测" value="0"></value>
+				<value name="遥信" value="1"></value>
+				<value name="遥脉" value="2"></value>
+				<value name="遥控" value="3"></value>
+				<value name="遥设" value="4"></value>
+				<value name="定值" value="5"></value>
+				<value name="内存块" value="6"></value>
+            </values>
+        </th>
+    </table>
+    <table title="遥测" name="1">
+		<th title="转发点号" name="Info.trans_id" readonly="0" defaultvalue="" type="int">
+            <values>
+            </values>
+        </th>
+        <th title="名称" name="Info.name" readonly="0" defaultvalue="" type="charint">
+            <values>
+            
+            </values>
+        </th>
+		<th title="是否上送" name="Info.desc" readonly="0" defaultvalue="" type="">
+            <values>
+				<value name="否" value="0"></value>
+				<value name="是" value="1"></value>
+            </values>
+        </th>
+		<th title="传输系数" name="mul_coefficient" readonly="0" defaultvalue="1" type="">
+            <values>
+            </values>
+        </th>
+		<th title="所属设备号" name="div_coefficient" readonly="0" defaultvalue="1" type="">
+            <values>
+            </values>
+        </th>
+		<th title="初始基值" name="basevalue" readonly="0" defaultvalue="0" type="float">
+            <values>
+            </values>
+        </th>
+		<th title="阈值" name="ratedvalue" readonly="0" defaultvalue="0" type="float">
+            <values>
+            </values>
+        </th>
+		<th title="零漂值" name="rangevalue" readonly="0" defaultvalue="0" type="float">
+            <values>
+            </values>
+        </th>
+    </table>
+	<table title="遥信" name="2">
+		<th title="转发点号" name="Info.trans_id" readonly="0" defaultvalue="" type="int">
+            <values>
+            </values>
+        </th>
+        <th title="名称" name="Info.name" readonly="0" defaultvalue="" type="charint">
+            <values>
+            </values>
+        </th>
+		<th title="是否上送" name="Info.desc" readonly="0" defaultvalue="" type="">
+            <values>
+				<value name="否" value="0"></value>
+				<value name="是" value="1"></value>
+            </values>
+        </th>
+		<th title="是否取反" name="parity" readonly="0" defaultvalue="1" type="">
+            <values>
+				<value name="否" value="0"></value>
+				<value name="是" value="1"></value>
+            </values>
+        </th>
+		<th title="遥信类型" name="asdu_type" readonly="0" defaultvalue="0" type="">
+            <values>
+			    <value name="单点" value="0"></value>
+				<value name="双点" value="1"></value>
+            </values>
+        </th>
+			<th title="所属设备号" name="asdu_type" readonly="0" defaultvalue="0" type="">
+            <values>
+            </values>
+        </th>        
+		<th title="是否发送COS" name="IsTraCos" readonly="0" defaultvalue="1" type="">
+            <values>
+			    <value name="否" value="0"></value>
+				<value name="是" value="1"></value>
+            </values>
+        </th>
+		<th title="是否发送SOE" name="IsTraSoe" readonly="0" defaultvalue="1" type="">
+            <values>
+			    <value name="否" value="0"></value>
+				<value name="是" value="1"></value>
+            </values>
+        </th>
+    </table>
+	<table title="遥脉" name="3">
+		<th title="转发点号" name="Info.trans_id" readonly="0" defaultvalue="" type="int">
+            <values>
+            </values>
+        </th>
+        <th title="名称" name="Info.name" readonly="0" defaultvalue="" type="charint">
+            <values>
+            </values>
+        </th>
+		<th title="描述" name="Info.desc" readonly="0" defaultvalue="" type="">
+            <values>
+            </values>
+        </th>
+		<th title="系数" name="coefficient" readonly="0" defaultvalue="1" type="">
+            <values>
+            </values>
+        </th>
+    </table>
+	<table title="遥控" name="4">
+		<th title="转发点号" name="Info.trans_id" readonly="0" defaultvalue="" type="int">
+            <values>
+            </values>
+        </th>
+        <th title="名称" name="Info.name" readonly="0" defaultvalue="" type="charint">
+            <values>
+            </values>
+        </th>
+		<th title="是否上送" name="Info.desc" readonly="0" defaultvalue="" type="">
+            <values>
+				<value name="否" value="0"></value>
+				<value name="是" value="1"></value>
+            </values>
+        </th>
+        <th title="对应App名称" name="Info.group_id" readonly="0" defaultvalue="" type="charint">
+            <values>
+            </values>
+        </th>
+        <th title="设备号" name="CloseYk_SignalIedDotId" readonly="0" defaultvalue="" type="int">
+            <values>
+            </values>
+        </th>
+    </table>
+	<table title="定值" name="5">
+		<th title="转发点号" name="Info.trans_id" readonly="0" defaultvalue="" type="int">
+            <values>
+            </values>
+        </th>
+        <th title="名称" name="Info.name" readonly="0" defaultvalue="" type="charint">
+            <values>
+            </values>
+        </th>
+        <th title="是否上送" name="Info.desc" readonly="0" defaultvalue="" type="">
+            <values>
+				<value name="否" value="0"></value>
+				<value name="是" value="1"></value>
+            </values>
+        </th>
+		<th title="参数类型" name="Info.mem_id" readonly="0" defaultvalue="" type="int">
+            <values>
+            </values>
+        </th>
+    </table>
+	<table title="内存块" name="6">
+		<th title="对象地址" name="trans_id" readonly="0" defaultvalue="" type="int">
+            <values>
+            </values>
+        </th>
+        <th title="名称" name="name" readonly="0" defaultvalue="" type="charint">
+            <values>
+            </values>
+        </th>
+		<th title="描述" name="desc" readonly="0" defaultvalue="" type="">
+            <values>
+            </values>
+        </th>
+    </table>
+</tables>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="GB2312" ?>
+<config>
+	<debug type = "0" port="9000"></debug>
+	<statutes  count="6">
+		<statute id="6" name="ModbusRTU" type = "0" parameterIndex="0" parameterName="串口" port ="" messageCount="2000"></statute>
+		<statute id="14" name="IEC104采集" type = "0" parameterIndex="2" parameterName="TCP客户端" port ="2404" messageCount="2000"></statute>
+		<statute id="27" name="ModbusTcp" type = "0" parameterIndex="2" parameterName="TCP客户端" port ="502" messageCount="2000"></statute>
+		<statute id="29" name="山东电网钥匙箱" type = "0" parameterIndex="2" parameterName="TCP客户端" port ="2000" messageCount="2000"></statute>
+		<statute id="18" name="辅控104" type = "1" parameterIndex="3" parameterName="TCP服务端" port ="2404" messageCount="2000"></statute>
+		<statute id="16" name="远程运维" type = "2" parameterIndex="2" parameterName="TCP客户端" port ="9000" messageCount="2000"></statute>
+	</statutes>
+</config>
